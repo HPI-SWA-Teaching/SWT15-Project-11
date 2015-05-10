@@ -4,7 +4,8 @@
 	"instance" : {
 		"demo" : "BF 5/9/2015 21:15",
 		"demo:" : "BF 5/9/2015 21:15",
-		"setUp" : "BF 5/9/2015 21:15",
+		"setUp" : "BF 5/10/2015 18:49",
+		"testCloseDemoMode" : "BF 5/10/2015 18:55",
 		"testEnterDemoMode" : "BF 5/9/2015 21:22",
 		"testLeaveDemoMode" : "BF 5/9/2015 21:27",
 		"testUniqueInstance" : "BF 5/9/2015 21:16" } }
