@@ -1,0 +1,14 @@
+{
+	"category" : "ProjectXX-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"fonts" ],
+	"name" : "FontDictionary",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

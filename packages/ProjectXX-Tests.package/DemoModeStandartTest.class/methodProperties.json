@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"demo" : "BF 5/9/2015 21:15",
+		"demo:" : "BF 5/9/2015 21:15",
+		"setUp" : "BF 5/9/2015 21:15",
+		"testEnterDemoMode" : "BF 5/9/2015 21:22",
+		"testLeaveDemoMode" : "BF 5/9/2015 21:27",
+		"testUniqueInstance" : "BF 5/9/2015 21:16" } }

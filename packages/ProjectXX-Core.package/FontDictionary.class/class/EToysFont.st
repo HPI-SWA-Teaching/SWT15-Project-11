@@ -1,0 +1,4 @@
+constants
+EToysFont
+
+	^ #EToysFont

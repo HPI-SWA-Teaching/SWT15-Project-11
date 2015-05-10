@@ -1,0 +1,4 @@
+accessing
+uniqueInstance
+
+	^ self new

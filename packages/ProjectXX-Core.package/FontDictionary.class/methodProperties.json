@@ -1,0 +1,20 @@
+{
+	"class" : {
+		"BalloonHelpFont" : "BF 5/10/2015 00:21",
+		"ButtonFont" : "BF 5/10/2015 00:21",
+		"CodeFont" : "BF 5/10/2015 00:21",
+		"EToysFont" : "BF 5/10/2015 00:19",
+		"FlapsFont" : "BF 5/10/2015 00:19",
+		"ListFont" : "BF 5/10/2015 00:19",
+		"MenuFont" : "BF 5/10/2015 00:20",
+		"PaintBoxButtonFont" : "BF 5/10/2015 00:20",
+		"SystemFont" : "BF 5/10/2015 00:18",
+		"WindowTitleFont" : "BF 5/10/2015 00:20" },
+	"instance" : {
+		"fonts" : "BF 5/9/2015 22:24",
+		"fonts:" : "BF 5/9/2015 22:24",
+		"initialize" : "BF 5/9/2015 22:29",
+		"initializeFontDictionary" : "BF 5/10/2015 02:03",
+		"loadFonts" : "BF 5/10/2015 02:26",
+		"refreshFontSettings" : "BF 5/10/2015 02:23",
+		"saveFonts" : "BF 5/10/2015 02:03" } }
