@@ -2,6 +2,6 @@ enterMode
 enterFont
 
 	self fontDictionary saveFonts.
-	Preferences setDemoFonts.
+	self fontDictionary setDemoFonts2.
 	self fontDictionary refreshFontSettings.
 	self restoreDisplay.
