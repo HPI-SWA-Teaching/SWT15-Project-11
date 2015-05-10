@@ -1,12 +1,13 @@
 {
 	"category" : "ProjectXX-Core",
 	"classinstvars" : [
-		 ],
+		"uniqueInstance" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"inDemoMode",
+		"fontDictionary" ],
 	"name" : "SwtProjectXXDemo",
 	"pools" : [
 		 ],

@@ -1,6 +1,18 @@
 {
 	"class" : {
-		 },
+		"close" : "BF 5/9/2015 21:24",
+		"new" : "BF 5/9/2015 21:23",
+		"uniqueInstance" : "BF 5/9/2015 21:07" },
 	"instance" : {
 		"barfoo" : "esec 4/23/2014 04:58",
-		"foobar" : "mj 5/9/2015 20:19" } }
+		"enterDemoMode" : "BF 5/10/2015 02:27",
+		"enterFont" : "BF 5/10/2015 10:52",
+		"fontDictionary" : "BF 5/10/2015 02:08",
+		"fontDictionary:" : "BF 5/10/2015 02:08",
+		"foobar" : "BF 5/9/2015 20:21",
+		"inDemoMode" : "BF 5/9/2015 21:22",
+		"inDemoMode:" : "BF 5/9/2015 21:22",
+		"initialize" : "BF 5/10/2015 02:09",
+		"leaveDemoMode" : "BF 5/10/2015 02:27",
+		"leaveFont" : "BF 5/10/2015 10:51",
+		"restoreDisplay" : "BF 5/10/2015 10:50" } }
