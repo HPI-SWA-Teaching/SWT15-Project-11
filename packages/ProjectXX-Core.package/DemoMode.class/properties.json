@@ -1,0 +1,17 @@
+{
+	"category" : "ProjectXX-Core",
+	"classinstvars" : [
+		"uniqueInstance" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"inDemoMode",
+		"viewHandler",
+		"inputHandler",
+		"fontDictionary" ],
+	"name" : "DemoMode",
+	"pools" : [
+		 ],
+	"super" : "SystemWindow",
+	"type" : "normal" }

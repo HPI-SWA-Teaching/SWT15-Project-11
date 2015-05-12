@@ -1,0 +1,21 @@
+{
+	"class" : {
+		"close" : "BF 5/12/2015 10:40",
+		"new" : "BF 5/12/2015 10:42",
+		"uniqueInstance" : "BF 5/12/2015 10:39" },
+	"instance" : {
+		"enterDemoMode" : "BF 5/13/2015 00:18",
+		"fontDictionary" : "BF 5/13/2015 00:04",
+		"fontDictionary:" : "BF 5/13/2015 00:04",
+		"inDemoMode" : "BF 5/12/2015 10:49",
+		"inDemoMode:" : "BF 5/12/2015 10:49",
+		"initialize" : "BF 5/13/2015 00:16",
+		"initializeInputHandler" : "BF 5/13/2015 00:16",
+		"initializeViewHandler" : "BF 5/12/2015 12:02",
+		"inputHandler" : "BF 5/13/2015 00:16",
+		"inputHandler:" : "BF 5/13/2015 00:16",
+		"leaveDemoMode" : "BF 5/13/2015 00:18",
+		"setDefaultFonts" : "BF 5/13/2015 00:02",
+		"setDemoFonts" : "BF 5/13/2015 00:02",
+		"viewHandler" : "BF 5/12/2015 11:20",
+		"viewHandler:" : "BF 5/12/2015 11:20" } }

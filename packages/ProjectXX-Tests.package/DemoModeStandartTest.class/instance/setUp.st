@@ -2,5 +2,5 @@ running
 setUp
 	super setUp.
 
-	SwtProjectXXDemo close.
-	self demo: SwtProjectXXDemo new
+	DemoMode close.
+	self demo: DemoMode new

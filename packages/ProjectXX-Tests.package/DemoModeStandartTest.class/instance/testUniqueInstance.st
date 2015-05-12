@@ -1,4 +1,4 @@
 running
 testUniqueInstance
 
-	self assert: self demo = SwtProjectXXDemo uniqueInstance
+	self assert: self demo = DemoMode uniqueInstance

@@ -2,7 +2,7 @@ running
 testCloseDemoMode
 
 	
-	SwtProjectXXDemo close.
-	self assert: (self demo = SwtProjectXXDemo uniqueInstance) not.
+	DemoMode close.
+	self assert: (self demo = DemoMode uniqueInstance) not.
 
 	"self assert: self demo = nil."
