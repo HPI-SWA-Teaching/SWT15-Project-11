@@ -11,13 +11,13 @@
 		"SystemFont" : "BF 5/10/2015 00:18",
 		"WindowTitleFont" : "BF 5/10/2015 00:20" },
 	"instance" : {
-		"enterFont" : "BF 5/12/2015 23:00",
+		"enterFont" : "mj 5/13/2015 17:36",
 		"fonts" : "BF 5/9/2015 22:24",
 		"fonts:" : "BF 5/9/2015 22:24",
 		"initialize" : "BF 5/9/2015 22:29",
 		"initializeFontDictionary" : "BF 5/10/2015 02:03",
-		"leaveFont" : "BF 5/12/2015 23:29",
+		"leaveFont" : "mj 5/13/2015 17:36",
 		"loadFonts" : "BF 5/10/2015 02:26",
-		"refreshFontSettings" : "BF 5/12/2015 11:47",
+		"refreshFontSettings" : "mj 5/13/2015 17:35",
 		"restoreDisplay" : "BF 5/13/2015 00:00",
 		"saveFonts" : "BF 5/10/2015 02:03" } }

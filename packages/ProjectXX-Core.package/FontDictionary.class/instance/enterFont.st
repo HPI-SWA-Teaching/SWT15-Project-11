@@ -4,4 +4,3 @@ enterFont
 	self saveFonts.
 	Preferences setDemoFonts.
 	self refreshFontSettings.
-	self restoreDisplay.

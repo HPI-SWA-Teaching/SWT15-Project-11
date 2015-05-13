@@ -3,4 +3,3 @@ leaveFont
 
 	self loadFonts.
 	self refreshFontSettings.
-	self restoreDisplay.

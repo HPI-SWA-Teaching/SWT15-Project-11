@@ -1,20 +1,14 @@
 font
 refreshFontSettings
 	"Try to update all the current font settings to make things consistent."
+	"buttons und die Leiste oben werden wohl automatisch refresht...."
 
-	Preferences setFlapsFontTo: (Preferences standardFlapFont);
-		setEToysFontTo: (Preferences standardEToysFont);
-		setWindowTitleFontTo: (Preferences windowTitleFont);
-		setListFontTo: (Preferences standardListFont);
-		setMenuFontTo: (Preferences standardMenuFont);
-		setSystemFontTo: (TextStyle defaultFont);
-		setCodeFontTo: (Preferences standardCodeFont);
-		setBalloonHelpFontTo: (BalloonMorph balloonFont).
-
-	SystemWindow allSubInstancesDo: [ :s |  [
-		| rawLabel |
-		rawLabel := s getRawLabel.
-		rawLabel owner vResizing: #spaceFill.
-		rawLabel font: rawLabel font.
-		s setLabel: s label.
-		s replaceBoxes ] on: Error do: []].
+	SystemWindow allSubInstancesDo: [ :s | 
+		s setLabelFont: (Preferences windowTitleFont).
+	].
+	PluggableListMorphPlus allSubInstancesDo: [ :s |
+		s font: (Preferences standardListFont).
+	].
+	PluggableTextMorph allSubInstancesDo: [ :s |
+		s font: (Preferences standardCodeFont).
+	].
