@@ -1,0 +1,4 @@
+accessing
+keyWindow
+
+	^ keyWindow
