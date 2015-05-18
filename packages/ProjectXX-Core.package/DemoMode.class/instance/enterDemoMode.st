@@ -5,4 +5,4 @@ enterDemoMode
 
 	self inDemoMode: true.
 	self setDemoFonts.
-	self inputHandler registerListener.
+	self inputHandler startDetectInput.

@@ -5,4 +5,4 @@ leaveDemoMode
 
 	self inDemoMode: false.
 	self setDefaultFonts.
-	self inputHandler unRegisterListener.
+	self inputHandler endDetectInput.

@@ -1,4 +1,4 @@
-as yet unclassified
+event-handling
 unRegisterListener 
 
-	#doSth
+	World activeHand removeKeyboardListener: self

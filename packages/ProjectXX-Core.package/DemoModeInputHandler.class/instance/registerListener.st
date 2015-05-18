@@ -1,4 +1,4 @@
-as yet unclassified
+event-handling
 registerListener 
 
-	#doSth
+	World activeHand addKeyboardListener: self
