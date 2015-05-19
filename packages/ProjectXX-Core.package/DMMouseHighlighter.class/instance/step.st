@@ -1,5 +1,7 @@
 as yet unclassified
 step
+	
+	steppingEnabled ifFalse: [ ^ false ].
 
 	(self currentTimeToLive >= 0) 
 	ifTrue: [

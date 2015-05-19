@@ -1,4 +1,4 @@
 as yet unclassified
 TimeToLive
 
-	^ 400
+	^ 200

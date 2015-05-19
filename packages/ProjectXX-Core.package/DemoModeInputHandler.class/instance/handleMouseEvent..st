@@ -1,7 +1,10 @@
 event-handling
 handleMouseEvent: evt 
 
-	| mouseHiglight |
-
-	mouseHiglight := self createMouseHighlight.
-	mouseHiglight position: evt cursorPoint.
+	evt isMouseDown ifTrue: [
+		self lastHighlight: (self createMouseHighlight position: evt cursorPoint)].
+	evt isMouseMove ifTrue: [
+		self lastHighlight position: evt cursorPoint].
+	evt isMouseUp ifTrue: [
+		self lastHighlight initStepping.
+		self lastHighlight: nil]

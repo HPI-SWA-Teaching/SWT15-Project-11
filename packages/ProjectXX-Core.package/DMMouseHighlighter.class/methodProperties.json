@@ -2,12 +2,15 @@
 	"class" : {
 		"HighlightPositionCorrection" : "BF 5/19/2015 11:56",
 		"HighlightSize" : "BF 5/19/2015 11:47",
-		"TimeToLive" : "BF 5/19/2015 12:50" },
+		"TimeToLive" : "BF 5/19/2015 14:05" },
 	"instance" : {
 		"currentTimeToLive" : "BF 5/19/2015 12:22",
 		"currentTimeToLive:" : "BF 5/19/2015 12:22",
-		"initialize" : "BF 5/19/2015 12:25",
+		"initStepping" : "BF 5/19/2015 13:51",
+		"initialize" : "BF 5/19/2015 13:50",
 		"morphicLayerNumber" : "BF 5/19/2015 11:43",
 		"position:" : "BF 5/19/2015 11:56",
-		"step" : "BF 5/19/2015 12:50",
-		"stepTime" : "BF 5/19/2015 12:50" } }
+		"step" : "BF 5/19/2015 13:50",
+		"stepTime" : "BF 5/19/2015 12:50",
+		"steppingEnabled" : "BF 5/19/2015 13:45",
+		"steppingEnabled:" : "BF 5/19/2015 13:45" } }

@@ -3,16 +3,18 @@
 		 },
 	"instance" : {
 		"createMouseHighlight" : "BF 5/19/2015 11:30",
-		"endDetectInput" : "J.F. 5/18/2015 11:44",
+		"endDetectInput" : "BF 5/19/2015 13:46",
 		"getCharacterFromKeystrokeEvent:" : "BF 5/19/2015 07:22",
 		"handleKeyboardEvent:" : "BF 5/19/2015 11:06",
-		"handleListenEvent:" : "BF 5/19/2015 11:19",
-		"handleMouseEvent:" : "BF 5/19/2015 11:49",
+		"handleListenEvent:" : "BF 5/19/2015 13:56",
+		"handleMouseEvent:" : "BF 5/19/2015 14:03",
 		"initializeKeyWindow" : "J.F. 5/18/2015 11:55",
 		"keyWindow" : "J.F. 5/18/2015 11:30",
 		"keyWindow:" : "J.F. 5/18/2015 11:30",
+		"lastHighlight" : "BF 5/19/2015 13:36",
+		"lastHighlight:" : "BF 5/19/2015 13:36",
 		"mouseHiglight" : "BF 5/19/2015 11:27",
 		"mouseHiglight:" : "BF 5/19/2015 11:27",
 		"registerListener" : "BF 5/19/2015 11:05",
 		"startDetectInput" : "J.F. 5/18/2015 11:34",
-		"unRegisterListener" : "BF 5/19/2015 11:06" } }
+		"unregisterListener" : "BF 5/19/2015 13:46" } }

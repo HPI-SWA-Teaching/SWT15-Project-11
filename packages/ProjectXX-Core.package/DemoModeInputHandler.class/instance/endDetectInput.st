@@ -1,5 +1,5 @@
 as yet unclassified
 endDetectInput
 
-	self unRegisterListener.
+	self unregisterListener.
 	self keyWindow delete.
