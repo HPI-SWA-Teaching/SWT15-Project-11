@@ -7,9 +7,10 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"button",
-		"text" ],
+		"text",
+		"buttonSizeList" ],
 	"name" : "DemoModeGui",
 	"pools" : [
 		 ],
-	"super" : "PluggablePanelMorph",
+	"super" : "Morph",
 	"type" : "normal" }

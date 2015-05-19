@@ -1,13 +1,17 @@
 {
 	"class" : {
 		"ENTERDEMOMODE" : "BF 5/19/2015 17:49",
-		"LEAVEDEMOMODE" : "BF 5/19/2015 17:49" },
+		"LEAVEDEMOMODE" : "BF 5/19/2015 17:49",
+		"defaultFactor" : "mj 5/19/2015 18:23" },
 	"instance" : {
 		"button" : "BF 5/19/2015 17:48",
 		"button:" : "BF 5/19/2015 17:48",
-		"enterDemoMode" : "BF 5/19/2015 17:49",
+		"buttonSizeList" : "mj 5/19/2015 18:09",
+		"buttonSizeList:" : "mj 5/19/2015 18:10",
+		"enterDemoMode" : "mj 5/19/2015 18:18",
 		"inDemoMode" : "BF 5/13/2015 00:10",
-		"initialize" : "BF 5/19/2015 17:49",
-		"leaveDemoMode" : "BF 5/19/2015 17:49",
+		"initialize" : "mj 5/19/2015 18:10",
+		"leaveDemoMode" : "mj 5/19/2015 18:11",
+		"setSizeFactor:" : "mj 5/19/2015 18:15",
 		"text" : "BF 5/19/2015 17:48",
 		"text:" : "BF 5/19/2015 17:48" } }

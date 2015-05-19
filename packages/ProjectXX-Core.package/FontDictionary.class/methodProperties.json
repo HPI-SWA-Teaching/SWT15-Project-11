@@ -11,7 +11,7 @@
 		"SystemFont" : "BF 5/10/2015 00:18",
 		"WindowTitleFont" : "BF 5/10/2015 00:20" },
 	"instance" : {
-		"enterFont" : "mj 5/13/2015 17:36",
+		"enterFont" : "mj 5/19/2015 18:26",
 		"fonts" : "BF 5/9/2015 22:24",
 		"fonts:" : "BF 5/9/2015 22:24",
 		"initialize" : "BF 5/9/2015 22:29",
@@ -20,4 +20,5 @@
 		"loadFonts" : "BF 5/10/2015 02:26",
 		"refreshFontSettings" : "mj 5/13/2015 17:35",
 		"restoreDisplay" : "BF 5/13/2015 00:00",
-		"saveFonts" : "BF 5/10/2015 02:03" } }
+		"saveFonts" : "BF 5/10/2015 02:03",
+		"setFonts:" : "mj 5/19/2015 18:22" } }
