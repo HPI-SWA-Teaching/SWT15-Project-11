@@ -1,7 +1,13 @@
 {
 	"class" : {
-		 },
+		"ENTERDEMOMODE" : "bf 5/19/2015 09:03",
+		"LEAVEDEMOMODE" : "bf 5/19/2015 09:04" },
 	"instance" : {
-		"enterDemoMode" : "BF 5/13/2015 00:10",
+		"button" : "bf 5/19/2015 09:02",
+		"button:" : "bf 5/19/2015 09:02",
+		"enterDemoMode" : "bf 5/19/2015 09:21",
 		"inDemoMode" : "BF 5/13/2015 00:10",
-		"leaveDemoMode" : "BF 5/13/2015 00:10" } }
+		"initialize" : "bf 5/19/2015 09:18",
+		"leaveDemoMode" : "bf 5/19/2015 09:20",
+		"text" : "bf 5/19/2015 09:02",
+		"text:" : "bf 5/19/2015 09:02" } }
