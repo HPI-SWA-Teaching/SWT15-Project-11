@@ -13,5 +13,5 @@
 	"name" : "DemoMode",
 	"pools" : [
 		 ],
-	"super" : "SystemWindow",
+	"super" : "Object",
 	"type" : "normal" }
