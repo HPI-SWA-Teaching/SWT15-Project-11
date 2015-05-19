@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"HighlightPositionCorrection" : "BF 5/19/2015 11:56",
+		"HighlightSize" : "BF 5/19/2015 11:47",
+		"TimeToLive" : "BF 5/19/2015 12:50" },
+	"instance" : {
+		"currentTimeToLive" : "BF 5/19/2015 12:22",
+		"currentTimeToLive:" : "BF 5/19/2015 12:22",
+		"initialize" : "BF 5/19/2015 12:25",
+		"morphicLayerNumber" : "BF 5/19/2015 11:43",
+		"position:" : "BF 5/19/2015 11:56",
+		"step" : "BF 5/19/2015 12:50",
+		"stepTime" : "BF 5/19/2015 12:50" } }

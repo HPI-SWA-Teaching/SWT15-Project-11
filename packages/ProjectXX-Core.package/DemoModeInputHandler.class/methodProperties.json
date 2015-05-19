@@ -2,12 +2,17 @@
 	"class" : {
 		 },
 	"instance" : {
+		"createMouseHighlight" : "BF 5/19/2015 11:30",
 		"endDetectInput" : "J.F. 5/18/2015 11:44",
-		"getCharacterFromKeystrokeEvent:" : "bf 5/19/2015 10:29",
-		"handleListenEvent:" : "J.F. 5/18/2015 11:48",
+		"getCharacterFromKeystrokeEvent:" : "BF 5/19/2015 07:22",
+		"handleKeyboardEvent:" : "BF 5/19/2015 11:06",
+		"handleListenEvent:" : "BF 5/19/2015 11:19",
+		"handleMouseEvent:" : "BF 5/19/2015 11:49",
 		"initializeKeyWindow" : "J.F. 5/18/2015 11:55",
 		"keyWindow" : "J.F. 5/18/2015 11:30",
 		"keyWindow:" : "J.F. 5/18/2015 11:30",
-		"registerListener" : "J.F. 5/18/2015 11:32",
+		"mouseHiglight" : "BF 5/19/2015 11:27",
+		"mouseHiglight:" : "BF 5/19/2015 11:27",
+		"registerListener" : "BF 5/19/2015 11:05",
 		"startDetectInput" : "J.F. 5/18/2015 11:34",
-		"unRegisterListener" : "J.F. 5/18/2015 11:32" } }
+		"unRegisterListener" : "BF 5/19/2015 11:06" } }

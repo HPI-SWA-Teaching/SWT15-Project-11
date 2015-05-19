@@ -1,14 +1,7 @@
 event-handling
 handleListenEvent: evt 
 
-	| string modifierKey activeKey |
+	[evt isMouseDown ifTrue: [self handleMouseEvent: evt]] on: Error do: [].
+	[evt isKeyboard ifTrue: [self handleKeyboardEvent: evt]] on: Error do: [].
 
-	activeKey := ''. 
-	string := ''. 
-	modifierKey := ''. 
-
-	evt anyModifierKeyPressed ifTrue: [ modifierKey := evt modifierString. 
-		string := string,modifierKey]. 
-
-	evt isKeystroke ifTrue: [ activeKey := self getCharacterFromKeystrokeEvent: evt. 
-		string := string,activeKey. self keyWindow setText: string.].
+	

@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "DemoModeGui",
+		"currentTimeToLive" ],
+	"name" : "DMMouseHighlighter",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "CircleMorph",
 	"type" : "normal" }

@@ -3,7 +3,7 @@ getCharacterFromKeystrokeEvent: evt
 
 	| char |
 
-	char := evt keyString.
+	char := evt keyCharacter.
 
 	(char = Character space) ifTrue: [ char := 'SPACE' ].
 
