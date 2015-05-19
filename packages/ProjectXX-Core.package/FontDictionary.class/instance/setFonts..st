@@ -17,7 +17,7 @@ setFonts: aScaleFactor
 		setWindowTitleFontTo: normal2;
 		setBalloonHelpFontTo: normal2;
 		setCodeFontTo: normal;
-		setButtonFontTo: normal2.
+		setButtonFontTo: (StrikeFont familyName: #'BitstreamVeraSans' pointSize: value2).
 	
 	self refreshFontSettings.
 
