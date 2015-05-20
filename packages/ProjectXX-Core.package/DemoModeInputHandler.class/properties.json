@@ -1,13 +1,14 @@
 {
 	"category" : "ProjectXX-Core",
 	"classinstvars" : [
-		 ],
+		"mouseHiglight" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
 		"keyWindow",
-		"lastHighlight" ],
+		"lastHighlight",
+		"mouseHiglight" ],
 	"name" : "DemoModeInputHandler",
 	"pools" : [
 		 ],
