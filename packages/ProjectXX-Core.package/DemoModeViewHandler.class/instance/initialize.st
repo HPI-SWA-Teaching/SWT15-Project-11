@@ -3,4 +3,4 @@ initialize
 
 	super initialize.
 
-	self fontScaleFactor: 1.
+	self initializeFontDictionary.

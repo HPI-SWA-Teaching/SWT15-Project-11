@@ -1,0 +1,4 @@
+mouse
+showBigMouse
+
+	Cursor currentCursor.

@@ -1,10 +1,23 @@
 {
 	"class" : {
-		 },
+		"BalloonHelpFont" : "bf 5/21/2015 12:27",
+		"ButtonFont" : "bf 5/21/2015 12:27",
+		"CodeFont" : "bf 5/21/2015 12:27",
+		"EToysFont" : "bf 5/21/2015 12:27",
+		"FlapsFont" : "bf 5/21/2015 12:28",
+		"ListFont" : "bf 5/21/2015 12:28",
+		"MenuFont" : "bf 5/21/2015 12:28",
+		"PaintBoxButtonFont" : "bf 5/21/2015 12:28",
+		"SystemFont" : "bf 5/21/2015 12:28",
+		"WindowTitleFont" : "bf 5/21/2015 12:28" },
 	"instance" : {
-		"fontScaleFactor" : "BF 5/12/2015 11:19",
-		"fontScaleFactor:" : "BF 5/12/2015 11:19",
-		"initialize" : "BF 5/13/2015 00:04",
-		"scaleFontsTo:" : "BF 5/12/2015 12:34",
-		"updateFonts" : "BF 5/13/2015 00:01",
-		"updateViews" : "BF 5/12/2015 12:30" } }
+		"fonts" : "bf 5/21/2015 11:53",
+		"fonts:" : "bf 5/21/2015 11:53",
+		"initialize" : "bf 5/21/2015 12:29",
+		"initializeFontDictionary" : "bf 5/21/2015 12:29",
+		"loadFonts" : "bf 5/21/2015 12:37",
+		"refreshFontSettings" : "bf 5/21/2015 12:31",
+		"saveFonts" : "bf 5/21/2015 12:24",
+		"setFonts:" : "bf 5/21/2015 12:30",
+		"showBigMouse" : "bf 5/20/2015 13:06",
+		"showSmallMouse" : "bf 5/20/2015 12:58" } }

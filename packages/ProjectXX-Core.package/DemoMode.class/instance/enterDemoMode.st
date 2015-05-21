@@ -1,8 +1,11 @@
-enterDemoMode
+state
 enterDemoMode
 
 	self inDemoMode ifTrue: [ ^ false ].
 
-	self inDemoMode: true.
-	self setDemoFonts.
 	self inputHandler startDetectInput.
+	self viewHandler saveFonts; 
+		showBigMouse.
+
+	self setState: self class DefaultEnterState;
+		updateGuis.

@@ -1,0 +1,4 @@
+constants
+StateOff
+
+	^ 0

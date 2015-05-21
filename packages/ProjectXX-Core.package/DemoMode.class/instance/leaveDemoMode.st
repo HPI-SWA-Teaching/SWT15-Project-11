@@ -1,8 +1,10 @@
-leaveDemoMode
+state
 leaveDemoMode
 
 	self inDemoMode ifFalse: [ ^ false ].
 
-	self inDemoMode: false.
-	self setDefaultFonts.
 	self inputHandler endDetectInput.
+	self viewHandler loadFonts; showSmallMouse.
+
+	self setState: self class StateOff;
+		updateGuis.

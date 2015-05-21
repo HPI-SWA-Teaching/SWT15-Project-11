@@ -1,4 +1,0 @@
-view
-updateViews
-
-	World restoreMorphicDisplay.

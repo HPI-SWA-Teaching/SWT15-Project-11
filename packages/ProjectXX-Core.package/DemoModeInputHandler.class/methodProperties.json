@@ -3,7 +3,7 @@
 		 },
 	"instance" : {
 		"createMouseHighlight" : "BF 5/19/2015 11:30",
-		"endDetectInput" : "BF 5/19/2015 13:46",
+		"endDetectInput" : "bf 5/21/2015 11:38",
 		"getCharacterFromKeystrokeEvent:" : "BF 5/19/2015 07:22",
 		"handleKeyboardEvent:" : "BF 5/19/2015 11:06",
 		"handleListenEvent:" : "BF 5/19/2015 13:56",
@@ -13,7 +13,7 @@
 		"keyWindow:" : "J.F. 5/18/2015 11:30",
 		"lastHighlight" : "BF 5/19/2015 13:36",
 		"lastHighlight:" : "BF 5/19/2015 13:36",
-		"mouseHiglight" : "mj 5/20/2015 21:22",
+		"mouseHiglight" : "BF 5/19/2015 11:27",
 		"mouseHiglight:" : "BF 5/19/2015 11:27",
 		"registerListener" : "BF 5/19/2015 11:05",
 		"startDetectInput" : "J.F. 5/18/2015 11:34",

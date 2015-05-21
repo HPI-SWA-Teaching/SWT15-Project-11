@@ -3,7 +3,7 @@ initialize
 
 	super initialize.
 
-	self initializeViewHandler.
-	self initializeInputHandler.
-	self fontDictionary: FontDictionary new.
+	self state: self class StateOff;
+		initializeViewHandler;
+		initializeInputHandler
 	

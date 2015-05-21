@@ -11,3 +11,5 @@ loadFonts
 	Preferences setBalloonHelpFontTo: (self fonts at: self class BalloonHelpFont).
 	Preferences setCodeFontTo: (self fonts at: self class CodeFont).
 	Preferences setButtonFontTo: (self fonts at: self class ButtonFont).
+
+	self refreshFontSettings

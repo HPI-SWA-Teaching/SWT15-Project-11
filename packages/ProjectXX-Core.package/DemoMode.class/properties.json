@@ -6,7 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"inDemoMode",
+		"state",
 		"viewHandler",
 		"inputHandler",
 		"fontDictionary" ],

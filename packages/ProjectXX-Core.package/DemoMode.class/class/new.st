@@ -3,6 +3,6 @@ new
 
 	uniqueInstance ifNil: [ 
 		uniqueInstance := super new.
-		uniqueInstance inDemoMode: false ].
+		uniqueInstance state: uniqueInstance class StateOff].
 	
 	^ uniqueInstance

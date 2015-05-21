@@ -4,7 +4,7 @@ setFonts: aScaleFactor
 	| value normal value2 normal2 |
 "das hier mache ich irgendwann nochmal besser^^"
 
-	value := 13 + (aScaleFactor * 8).
+	value := 13 + ((aScaleFactor - 1) * 8).
 	value > 22 ifTrue: [value2 := 22.]
 		ifFalse: [value2 := value ].
 	normal := StrikeFont familyName: #'BitstreamVeraSans' pointSize: value.
@@ -20,4 +20,3 @@ setFonts: aScaleFactor
 		setButtonFontTo: (StrikeFont familyName: #'BitstreamVeraSans' pointSize: value2).
 	
 	self refreshFontSettings.
-

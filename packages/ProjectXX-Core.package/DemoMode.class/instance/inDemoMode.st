@@ -1,4 +1,4 @@
 accessing
 inDemoMode
 
-	^ inDemoMode
+	^ (state = self class StateOff) not
