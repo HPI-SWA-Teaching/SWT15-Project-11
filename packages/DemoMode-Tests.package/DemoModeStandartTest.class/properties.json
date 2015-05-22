@@ -1,0 +1,14 @@
+{
+	"category" : "DemoMode-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"demo" ],
+	"name" : "DemoModeStandartTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

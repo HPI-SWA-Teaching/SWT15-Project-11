@@ -1,0 +1,16 @@
+{
+	"category" : "DemoMode-Core",
+	"classinstvars" : [
+		"mouseHiglight" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"keyWindow",
+		"lastHighlight",
+		"mouseHiglight" ],
+	"name" : "DMInputHandler",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,17 @@
+{
+	"category" : "DemoMode-Core",
+	"classinstvars" : [
+		"uniqueInstance" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"state",
+		"viewHandler",
+		"inputHandler",
+		"fontDictionary" ],
+	"name" : "DemoMode",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
