@@ -4,7 +4,7 @@
 	"instance" : {
 		"createMouseHighlight" : "BF 5/19/2015 11:30",
 		"endDetectInput" : "bf 5/21/2015 11:38",
-		"getCharacterFromKeystrokeEvent:" : "BF 5/19/2015 07:22",
+		"getCharacterFromKeystrokeEvent:" : "bf 5/23/2015 12:28",
 		"handleKeyboardEvent:" : "BF 5/19/2015 11:06",
 		"handleListenEvent:" : "BF 5/19/2015 13:56",
 		"handleMouseEvent:" : "BF 5/19/2015 14:03",

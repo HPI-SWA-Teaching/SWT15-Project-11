@@ -5,3 +5,5 @@ showBigMouse
 		updateMouseToForm.
 
 	self scaleMouseFormBy: 3.
+
+	self registerListener.

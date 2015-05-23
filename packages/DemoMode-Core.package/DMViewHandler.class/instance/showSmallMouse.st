@@ -2,4 +2,6 @@ mouse
 showSmallMouse
 
 	self mouseForm: nil;
-		updateMouseToForm
+		updateMouseToForm.
+
+	self unregisterListener 
