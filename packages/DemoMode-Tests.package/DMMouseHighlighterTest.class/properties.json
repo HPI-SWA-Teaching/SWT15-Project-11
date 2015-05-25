@@ -1,0 +1,14 @@
+{
+	"category" : "DemoMode-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"highlight" ],
+	"name" : "DMMouseHighlighterTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
