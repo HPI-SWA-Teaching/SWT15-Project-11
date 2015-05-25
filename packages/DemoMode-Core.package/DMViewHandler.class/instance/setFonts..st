@@ -10,13 +10,16 @@ setFonts: aScaleFactor
 	normal := StrikeFont familyName: #'BitstreamVeraSans' pointSize: value.
 	normal2 := StrikeFont familyName: #'BitstreamVeraSans' pointSize: value2.
 	Preferences
-		setSystemFontTo: normal2;
-		setListFontTo: normal2;
-		setHaloLabelFontTo: normal2;
-		setMenuFontTo: normal2;
-		setWindowTitleFontTo: normal2;
 		setBalloonHelpFontTo: normal2;
+		setButtonFontTo: normal2;
 		setCodeFontTo: normal;
-		setButtonFontTo: (StrikeFont familyName: #'BitstreamVeraSans' pointSize: value2).
+		setEToysFontTo: normal2;
+		setEToysTitleFontTo: normal2;
+		setFlapsFontTo: normal2;
+		setHaloLabelFontTo: normal2;
+		setListFontTo: normal2;
+		setMenuFontTo: normal2;
+		setSystemFontTo: normal2;
+		setWindowTitleFontTo: normal2.
 	
 	self refreshFontSettings.

@@ -1,4 +1,4 @@
-as yet unclassified
+constants
 HighlightPositionCorrection
 
-	^ 25.
+	^ 25
