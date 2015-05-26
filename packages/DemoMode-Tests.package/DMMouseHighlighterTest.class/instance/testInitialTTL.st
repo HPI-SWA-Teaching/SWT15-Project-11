@@ -1,4 +1,4 @@
 running
 testInitialTTL
 
-	self assert: (self highlight currentTimeToLive = DMMouseHighlighter TimeToLive)
+	self assert: (self highlight currentTimeToLive = 0)
