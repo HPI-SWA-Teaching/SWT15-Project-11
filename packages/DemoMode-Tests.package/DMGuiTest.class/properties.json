@@ -1,0 +1,15 @@
+{
+	"category" : "DemoMode-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"Gui",
+		"gui" ],
+	"name" : "DMGuiTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
