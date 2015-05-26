@@ -5,7 +5,7 @@ initialize
 	self extent: (self class HighlightSize @ self class HighlightSize); 
 		color: ((Color white) alpha: 0.5);
 		lock;
-		currentTimeToLive: self class TimeToLive;
+		currentTimeToLive: 0;
 		setProperty: #morphicLayerNumber toValue: self morphicLayerNumber;
-		steppingEnabled: false;
+		steppingEnabled: true;
 		openInWorld.

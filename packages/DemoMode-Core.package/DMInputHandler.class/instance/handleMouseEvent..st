@@ -4,7 +4,9 @@ handleMouseEvent: evt
 	(World activeHand hasChanged) ifTrue: [DemoMode uniqueInstance viewHandler mouseHasChanged].
 
 	evt isMouseDown ifTrue: [
-		self lastHighlight: (self createMouseHighlight position: evt cursorPoint)].
+		self lastHighlight isNil ifFalse: [self lastHighlight initStepping].
+		self lastHighlight: (self createMouseHighlight: evt)].
+		self lastHighlight disableStepping.
 	evt isMouseMove ifTrue: [
 		self lastHighlight position: evt cursorPoint].
 	evt isMouseUp ifTrue: [

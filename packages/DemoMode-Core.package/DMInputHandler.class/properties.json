@@ -8,7 +8,6 @@
 	"instvars" : [
 		"keyWindow",
 		"lastHighlight",
-		"mouseHiglight",
 		"text" ],
 	"name" : "DMInputHandler",
 	"pools" : [

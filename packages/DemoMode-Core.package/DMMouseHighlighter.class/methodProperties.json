@@ -1,13 +1,17 @@
 {
 	"class" : {
+		"BlueHighlight" : "bf 5/26/2015 10:36",
 		"HighlightPositionCorrection" : "bf 5/25/2015 19:57",
 		"HighlightSize" : "bf 5/25/2015 19:57",
-		"TimeToLive" : "BF 5/19/2015 14:05" },
+		"RedHighlight" : "bf 5/26/2015 10:36",
+		"TimeToLive" : "BF 5/19/2015 14:05",
+		"YellowHighlight" : "bf 5/26/2015 10:36" },
 	"instance" : {
 		"currentTimeToLive" : "BF 5/19/2015 12:22",
 		"currentTimeToLive:" : "BF 5/19/2015 12:22",
-		"initStepping" : "BF 5/19/2015 13:51",
-		"initialize" : "BF 5/19/2015 13:50",
+		"disableStepping" : "bf 5/26/2015 11:28",
+		"initStepping" : "bf 5/26/2015 11:31",
+		"initialize" : "bf 5/26/2015 11:30",
 		"morphicLayerNumber" : "BF 5/19/2015 11:43",
 		"position:" : "BF 5/19/2015 11:56",
 		"step" : "bf 5/25/2015 21:23",
