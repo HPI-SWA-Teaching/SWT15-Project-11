@@ -1,5 +1,6 @@
 {
 	"class" : {
+		"DefaultGuiPosition" : "mj 5/26/2015 10:16",
 		"StringEnterMode" : "bf 5/21/2015 11:12",
 		"StringLeaveMode" : "bf 5/21/2015 11:11" },
 	"instance" : {
@@ -9,10 +10,10 @@
 		"enterDemoMode" : "bf 5/21/2015 11:49",
 		"inDemoMode" : "BF 5/13/2015 00:10",
 		"initialize" : "bf 5/21/2015 13:22",
-		"initializeCloseButton" : "bf 5/21/2015 13:28",
-		"initializeDemoModeButton" : "bf 5/21/2015 13:27",
-		"initializeGuiBackground" : "bf 5/21/2015 10:20",
-		"initializeStepButtonList" : "bf 5/21/2015 10:24",
+		"initializeCloseButton" : "mj 5/26/2015 10:17",
+		"initializeDemoModeButton" : "mj 5/26/2015 10:17",
+		"initializeGuiBackground" : "mj 5/26/2015 10:18",
+		"initializeStepButtonList" : "mj 5/26/2015 10:18",
 		"leaveDemoMode" : "bf 5/20/2015 13:48",
 		"setDemoModeState:" : "bf 5/21/2015 11:22",
 		"setSizeFactor:" : "bf 5/21/2015 11:45",

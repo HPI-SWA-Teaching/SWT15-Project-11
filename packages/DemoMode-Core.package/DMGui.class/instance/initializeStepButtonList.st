@@ -6,7 +6,7 @@ initializeStepButtonList
 	0 to: 3 do: [:x |		
 		self stepButtonList add: ((PluggableButtonMorphPlus new)
 			model: self; 
-			position: ((x*20)+20)@90;
+			position: (((x*20)+10)@30) + self class DefaultGuiPosition;
 			arguments: {x}; 
 			action: #setSizeFactor:; 
 			enabled: false; 

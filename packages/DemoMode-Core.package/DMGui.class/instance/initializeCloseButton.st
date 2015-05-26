@@ -5,7 +5,7 @@ initializeCloseButton
 		target: self; 
 		color: Color transparent;
 		labelGraphic: SystemWindow closeBoxImage;
-		position: 10@60; 
+		position: self class DefaultGuiPosition; 
 		borderWidth: 0;
 		extent: 20@20;
 		actionSelector: #delete)
