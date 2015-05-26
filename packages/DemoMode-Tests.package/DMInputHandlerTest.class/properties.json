@@ -1,0 +1,15 @@
+{
+	"category" : "DemoMode-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"demo",
+		"inputHandler" ],
+	"name" : "DMInputHandlerTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
