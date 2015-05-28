@@ -11,5 +11,7 @@ leaveDemoMode
 
 	self viewHandler showSmallMouse.
 
+	DMMouseHighlighter allInstancesDo: [:h | h delete].
+
 	self setState: self class StateOff;
 		updateGuis.

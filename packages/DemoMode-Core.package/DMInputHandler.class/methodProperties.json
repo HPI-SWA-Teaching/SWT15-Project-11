@@ -9,7 +9,7 @@
 		"getCharacterFromKeystrokeEvent:" : "bf 5/28/2015 16:42",
 		"handleKeyboardEvent:" : "bf 5/28/2015 16:47",
 		"handleListenEvent:" : "bf 5/26/2015 09:05",
-		"handleMouseEvent:" : "bf 5/26/2015 11:31",
+		"handleMouseEvent:" : "bf 5/28/2015 23:27",
 		"initialize" : "bf 5/28/2015 14:31",
 		"initializeInputTable" : "bf 5/28/2015 14:36",
 		"initializeKeyWindow" : "bf 5/25/2015 22:03",

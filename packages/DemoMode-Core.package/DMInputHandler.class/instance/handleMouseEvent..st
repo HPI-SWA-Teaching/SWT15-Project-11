@@ -6,7 +6,6 @@ handleMouseEvent: evt
 	evt isMouseDown ifTrue: [
 		self lastHighlight isNil ifFalse: [self lastHighlight initStepping].
 		self lastHighlight: (self createMouseHighlight: evt)].
-		self lastHighlight disableStepping.
 	evt isMouseMove ifTrue: [
 		self lastHighlight position: evt cursorPoint].
 	evt isMouseUp ifTrue: [

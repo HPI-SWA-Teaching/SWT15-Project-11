@@ -1,15 +1,14 @@
 as yet unclassified
 initStepping 
-	
-	self steppingEnabled: true.
-	self currentTimeToLive: self class TimeToLive.
+
+	self startAnim ifTrue: [ ^ false] ifFalse: [self startAnim: true].
 
 	AnimPropertyAnimation new
    duration: self class TimeToLive;
    target: self;
    property: #extent;
    startValue: ((self class HighlightSize) @ (self class HighlightSize));
-   endValue: 0@0;
+   endValue: 1@1;
 start: #deleteWhenFinished; 
    register. "Add to animation registry."
 
