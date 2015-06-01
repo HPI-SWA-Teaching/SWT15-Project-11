@@ -7,9 +7,9 @@
 		"TimeToLive" : "BF 5/19/2015 14:05",
 		"YellowHighlight" : "bf 5/26/2015 10:36" },
 	"instance" : {
-		"initStepping" : "bf 5/28/2015 23:22",
-		"initialize" : "bf 5/28/2015 23:19",
+		"initialize" : "bf 5/29/2015 10:29",
 		"morphicLayerNumber" : "bf 5/28/2015 23:28",
 		"position:" : "BF 5/19/2015 11:56",
-		"startAnim" : "bf 5/28/2015 23:18",
-		"startAnim:" : "bf 5/28/2015 23:18" } }
+		"running" : "bf 5/29/2015 10:27",
+		"running:" : "bf 5/29/2015 10:27",
+		"startAnim" : "bf 6/1/2015 07:14" } }

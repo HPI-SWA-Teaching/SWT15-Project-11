@@ -4,10 +4,9 @@ handleMouseEvent: evt
 	(World activeHand hasChanged) ifTrue: [DemoMode uniqueInstance viewHandler mouseHasChanged].
 
 	evt isMouseDown ifTrue: [
-		self lastHighlight isNil ifFalse: [self lastHighlight initStepping].
+		DMMouseHighlighter allInstancesDo: [:highlight | highlight startAnim ].
 		self lastHighlight: (self createMouseHighlight: evt)].
-	evt isMouseMove ifTrue: [
-		self lastHighlight position: evt cursorPoint].
-	evt isMouseUp ifTrue: [
-		self lastHighlight initStepping.
-		self lastHighlight: nil]
+	evt isMouse ifTrue: [
+		self lastHighlight isNil ifFalse: [
+			self lastHighlight position: evt cursorPoint]].
+	evt isMouseUp ifTrue: [self lastHighlight isNil ifFalse: [self lastHighlight startAnim. self lastHighlight: nil]]
