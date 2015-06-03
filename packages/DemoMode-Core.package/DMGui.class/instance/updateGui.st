@@ -6,11 +6,8 @@ updateGui
 			(self stepButtonList at: (x+1)) enabled: false]
 		ifFalse: [(self stepButtonList at: (x+1)) enabled: true]].
 
-		self button label: self class StringLeaveMode; 
-			offColor: Color red; 
-			action: #leaveDemoMode]
+		self button 	enabled: true]
 	ifFalse: [
-		1 to: 4 do: [:x |(self stepButtonList at: (x)) enabled: false].
-		self button label: self class StringEnterMode; 
-			offColor: Color green; 
-			action: #enterDemoMode]
+		1 to: 4 do: [:x |(self stepButtonList at: (x)) enabled: true].
+		self button enabled: false.
+	]

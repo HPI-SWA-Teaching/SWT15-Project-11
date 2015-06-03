@@ -1,4 +1,4 @@
 constants
 StringLeaveMode
 
-	^ 'Leave Demo Mode'
+	^ 'OFF'

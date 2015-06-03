@@ -1,5 +1,5 @@
 as yet unclassified
 testRestoreFonts
-		"
-	Preferences restoreDefaultFonts."
+		
+	Preferences restoreDefaultFonts.
 	viewHandler refreshFontSettings.

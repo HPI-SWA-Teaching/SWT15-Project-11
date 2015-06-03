@@ -2,7 +2,7 @@
 	"class" : {
 		"DefaultGuiPosition" : "mj 5/26/2015 10:16",
 		"StringEnterMode" : "bf 5/21/2015 11:12",
-		"StringLeaveMode" : "bf 5/21/2015 11:11" },
+		"StringLeaveMode" : "mj 6/3/2015 15:44" },
 	"instance" : {
 		"button" : "BF 5/19/2015 17:48",
 		"button:" : "BF 5/19/2015 17:48",
@@ -11,12 +11,12 @@
 		"inDemoMode" : "BF 5/13/2015 00:10",
 		"initialize" : "bf 5/21/2015 13:22",
 		"initializeCloseButton" : "mj 5/26/2015 10:17",
-		"initializeDemoModeButton" : "mj 5/26/2015 10:17",
+		"initializeDemoModeButton" : "mj 6/3/2015 15:45",
 		"initializeGuiBackground" : "mj 5/26/2015 10:18",
 		"initializeStepButtonList" : "mj 5/26/2015 10:18",
 		"leaveDemoMode" : "bf 5/20/2015 13:48",
-		"setDemoModeState:" : "bf 5/21/2015 11:22",
+		"setDemoModeState:" : "mj 6/3/2015 17:00",
 		"setSizeFactor:" : "bf 5/21/2015 11:45",
 		"stepButtonList" : "bf 5/21/2015 09:08",
 		"stepButtonList:" : "bf 5/21/2015 09:08",
-		"updateGui" : "bf 5/21/2015 16:54" } }
+		"updateGui" : "mj 6/3/2015 15:45" } }

@@ -1,0 +1,14 @@
+{
+	"category" : "DemoMode-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"viewHandler" ],
+	"name" : "DMViewHandlerTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
