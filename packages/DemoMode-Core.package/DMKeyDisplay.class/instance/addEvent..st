@@ -3,7 +3,7 @@ addEvent: aKeyboardEvent
 	""
 	| keyMorph |
 
-	keyMorph:= DMKeybordHighlight createKeyStrokeMorph: self Event: aKeyboardEvent xLocation: displayedKeyStrokes size*15 .
+	keyMorph:= DMKeybordHighlight createKeyStrokeMorph: self Event: aKeyboardEvent xLocation: (self xPosFromIndex: self displayedKeyStrokes size).
 	self displayedKeyStrokes add: keyMorph.
 	
 	keyMorph openInWorld.

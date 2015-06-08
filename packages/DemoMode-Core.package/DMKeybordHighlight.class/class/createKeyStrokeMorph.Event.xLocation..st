@@ -5,4 +5,5 @@ createKeyStrokeMorph: KeyDisplay Event: aKeyboardEvent xLocation: xValue
 		contents: aKeyboardEvent;
 		lock;
 		backgroundColor: Color yellow;
-		display: KeyDisplay). 
+		display: KeyDisplay;
+		margins: 5@0). 

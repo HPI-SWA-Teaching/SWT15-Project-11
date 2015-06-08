@@ -1,0 +1,19 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"initialize" : "bf 6/4/2015 15:21",
+		"movie" : "bf 6/4/2015 13:50",
+		"movie:" : "bf 6/4/2015 13:50",
+		"screenshots" : "bf 6/4/2015 12:31",
+		"screenshots:" : "bf 6/4/2015 12:31",
+		"shot" : "bf 6/4/2015 14:07",
+		"show:" : "bf 6/4/2015 14:10",
+		"showMovie" : "bf 6/4/2015 15:20",
+		"startRecord" : "bf 6/4/2015 15:20",
+		"step" : "bf 6/4/2015 15:23",
+		"stepTime" : "bf 6/4/2015 15:23",
+		"stepTime:" : "bf 6/4/2015 14:12",
+		"stopRecord" : "bf 6/4/2015 14:39",
+		"timer" : "bf 6/4/2015 14:16",
+		"timer:" : "bf 6/4/2015 14:16" } }

@@ -1,0 +1,4 @@
+instance
+hardReset
+
+	uniqueInstance := nil
