@@ -7,5 +7,6 @@ initialize
 		initializeStepButtonList; 
 		initializeDemoModeButton;
 		initializeCloseButton;
+		initializeToggleShowKeysButton;
 		updateGui; 
 		openInWorld.

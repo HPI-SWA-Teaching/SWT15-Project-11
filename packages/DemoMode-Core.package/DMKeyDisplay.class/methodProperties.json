@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addEvent:" : "goldfisch 6/8/2015 17:19",
+		"deleteMorph:" : "goldfisch 6/8/2015 17:40",
+		"displayedKeyStrokes" : "goldfisch 6/8/2015 15:48",
+		"displayedKeyStrokes:" : "goldfisch 6/8/2015 15:48",
+		"initialize" : "goldfisch 6/8/2015 15:49",
+		"updatePositions" : "goldfisch 6/8/2015 17:45" } }

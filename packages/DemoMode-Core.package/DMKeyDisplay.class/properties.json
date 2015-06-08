@@ -1,17 +1,13 @@
 {
 	"category" : "DemoMode-Core",
 	"classinstvars" : [
-		"uniqueInstance" ],
+		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"state",
-		"viewHandler",
-		"inputHandler",
-		"fontDictionary",
-		"showKeysState" ],
-	"name" : "DemoMode",
+		"displayedKeyStrokes" ],
+	"name" : "DMKeyDisplay",
 	"pools" : [
 		 ],
 	"super" : "Object",

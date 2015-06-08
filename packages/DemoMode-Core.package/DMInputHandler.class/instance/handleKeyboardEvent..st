@@ -6,19 +6,19 @@ handleKeyboardEvent: evt
   ifTrue: [string := ''.
    evt commandKeyPressed
     ifTrue: [string := 'cmd '.
-     self keyWindow setText: string].
+     self sendEventToDisplay: string].
    evt controlKeyPressed
     ifTrue: [string := string , 'ctrl '.
-     self keyWindow setText: string].
+     self sendEventToDisplay: string].
    evt shiftPressed
     ifTrue: [(evt keyValue > 31) ifTrue: [string := string , 'shift ', (self getCharacterFromKeyDownEvent: evt) , Character cr asString.
-     self keyWindow setText: string]
+     self sendEventToDisplay: string]
       ifFalse:[string := string, 'shift '.
-      self keyWindow setText: string]
+      self sendEventToDisplay: string]
     ].
    self text: string].
 
  evt isKeystroke  
   ifTrue: [activeKey := self getCharacterFromKeystrokeEvent: evt.
    string := self text , activeKey.
-   self keyWindow setText: string]
+   self sendEventToDisplay: string]

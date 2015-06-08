@@ -1,18 +1,15 @@
 {
 	"category" : "DemoMode-Core",
 	"classinstvars" : [
-		"uniqueInstance" ],
+		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"state",
-		"viewHandler",
-		"inputHandler",
-		"fontDictionary",
-		"showKeysState" ],
-	"name" : "DemoMode",
+		"currentTimeToLive",
+		"display" ],
+	"name" : "DMKeybordHighlight",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "TextMorph",
 	"type" : "normal" }

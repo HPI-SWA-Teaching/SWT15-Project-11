@@ -1,0 +1,4 @@
+accessing
+displayedKeyStrokes
+
+	^ displayedKeyStrokes
