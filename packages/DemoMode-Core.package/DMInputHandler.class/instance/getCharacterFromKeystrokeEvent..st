@@ -4,6 +4,7 @@ getCharacterFromKeystrokeEvent: evt
  	| char output |
 
   	char := evt keyCharacter.
+
 	output := char.
    	(evt keyValue < 33) ifTrue: [output := ''].
 
