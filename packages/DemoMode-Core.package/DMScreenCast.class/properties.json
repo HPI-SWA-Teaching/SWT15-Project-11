@@ -6,13 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"timer",
-		"recording",
 		"screenshots",
-		"movie",
-		"showing" ],
-	"name" : "DMScreenCastSpike",
+		"timer",
+		"state" ],
+	"name" : "DMScreenCast",
 	"pools" : [
 		 ],
-	"super" : "MovieMorph",
+	"super" : "Morph",
 	"type" : "normal" }

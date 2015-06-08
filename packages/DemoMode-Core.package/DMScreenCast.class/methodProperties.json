@@ -1,0 +1,18 @@
+{
+	"class" : {
+		"StateIdle" : "bf 6/8/2015 21:59",
+		"StateRecording" : "bf 6/8/2015 21:58" },
+	"instance" : {
+		"captureScreen" : "bf 6/8/2015 22:08",
+		"initialize" : "bf 6/8/2015 22:02",
+		"playVideo" : "bf 6/9/2015 00:04",
+		"screenshots" : "bf 6/8/2015 22:00",
+		"screenshots:" : "bf 6/8/2015 22:00",
+		"startRecord" : "bf 6/8/2015 22:15",
+		"state" : "bf 6/8/2015 22:00",
+		"state:" : "bf 6/8/2015 22:00",
+		"step" : "bf 6/9/2015 00:01",
+		"stepTime" : "bf 6/8/2015 22:03",
+		"stopRecord" : "bf 6/8/2015 22:26",
+		"timer" : "bf 6/8/2015 22:00",
+		"timer:" : "bf 6/8/2015 22:00" } }

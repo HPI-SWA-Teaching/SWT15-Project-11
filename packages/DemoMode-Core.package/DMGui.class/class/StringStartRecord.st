@@ -1,0 +1,4 @@
+constants
+StringStartRecord
+
+	^ 'Start Record'

@@ -10,7 +10,8 @@
 		"viewHandler",
 		"inputHandler",
 		"fontDictionary",
-		"showKeysState" ],
+		"showKeysState",
+		"screenCast" ],
 	"name" : "DemoMode",
 	"pools" : [
 		 ],

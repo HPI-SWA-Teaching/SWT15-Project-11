@@ -8,5 +8,6 @@ initialize
 		initializeDemoModeButton;
 		initializeCloseButton;
 		initializeToggleShowKeysButton;
+		initializeScreenCastButton;
 		updateGui; 
 		openInWorld.

@@ -1,0 +1,4 @@
+constants
+StringStopRecord
+
+	^ 'Stop Record'
