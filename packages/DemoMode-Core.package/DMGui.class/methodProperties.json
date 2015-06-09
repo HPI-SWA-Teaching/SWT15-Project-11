@@ -10,11 +10,12 @@
 	"instance" : {
 		"button" : "BF 5/19/2015 17:48",
 		"button:" : "BF 5/19/2015 17:48",
+		"closeGui" : "mj 6/9/2015 12:45",
 		"demoModeState" : "bf 5/21/2015 11:16",
 		"enterDemoMode" : "bf 5/21/2015 11:49",
 		"inDemoMode" : "BF 5/13/2015 00:10",
 		"initialize" : "bf 6/8/2015 23:35",
-		"initializeCloseButton" : "mj 5/26/2015 10:17",
+		"initializeCloseButton" : "mj 6/9/2015 11:49",
 		"initializeDemoModeButton" : "bf 6/8/2015 23:35",
 		"initializeGuiBackground" : "goldfisch 6/8/2015 02:45",
 		"initializeScreenCastButton" : "bf 6/8/2015 23:37",

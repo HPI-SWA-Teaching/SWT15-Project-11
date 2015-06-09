@@ -7,7 +7,7 @@ setFonts: aScaleFactor
 	value := 13 + ((aScaleFactor - 1) * 8).
 	value > 22 ifTrue: [value2 := 22.]
 		ifFalse: [value2 := value ].
-	normal := StrikeFont familyName: #'BitstreamVeraSans' pointSize: value.
+	normal := TTCFont familyName: 'BitstreamVeraSans' pointSize: 36 emphasis:0. 
 	normal2 := StrikeFont familyName: #'BitstreamVeraSans' pointSize: value2.
 	Preferences
 		setBalloonHelpFontTo: normal2;
