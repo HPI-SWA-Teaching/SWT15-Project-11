@@ -1,4 +1,4 @@
 constants
 StateOff
 
-	^ 0
+	^ -1

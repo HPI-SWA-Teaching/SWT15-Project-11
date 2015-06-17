@@ -4,10 +4,10 @@ initialize
 	super initialize.
 	
 	self initializeGuiBackground;
-		initializeStepButtonList; 
-		initializeDemoModeButton;
+		initializeDemoModeButtons;
 		initializeCloseButton;
 		initializeToggleShowKeysButton;
 		initializeScreenCastButton;
+		initializeSlider;
 		updateGui; 
 		openInWorld.

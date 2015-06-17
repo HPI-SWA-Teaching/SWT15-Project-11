@@ -1,7 +1,7 @@
 {
 	"class" : {
 		"DefaultEnterState" : "bf 5/21/2015 11:11",
-		"StateOff" : "bf 5/21/2015 11:10",
+		"StateOff" : "mj 6/17/2015 18:41",
 		"close" : "BF 5/12/2015 10:40",
 		"hardReset" : "bf 6/8/2015 19:56",
 		"new" : "mj 6/3/2015 16:57",
@@ -20,7 +20,7 @@
 		"initializeViewHandler" : "mj 5/22/2015 19:02",
 		"inputHandler" : "BF 5/13/2015 00:16",
 		"inputHandler:" : "BF 5/13/2015 00:16",
-		"leaveDemoMode" : "bf 5/28/2015 23:17",
+		"leaveDemoMode" : "mj 6/17/2015 19:34",
 		"screenCast" : "bf 6/8/2015 21:55",
 		"screenCast:" : "bf 6/8/2015 21:55",
 		"setState:" : "mj 6/3/2015 15:04",

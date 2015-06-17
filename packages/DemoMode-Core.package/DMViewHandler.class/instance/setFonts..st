@@ -1,14 +1,12 @@
 font
 setFonts: aScaleFactor
 
-	| value normal value2 normal2 |
+	| normal normal2 |
 "das hier mache ich irgendwann nochmal besser^^"
 
-	value := 13 + ((aScaleFactor - 1) * 8).
-	value > 22 ifTrue: [value2 := 22.]
-		ifFalse: [value2 := value ].
-	normal := TTCFont familyName: 'BitstreamVeraSans' pointSize: 36 emphasis:0. 
-	normal2 := StrikeFont familyName: #'BitstreamVeraSans' pointSize: value2.
+
+	normal := TTCFont familyName: 'BitstreamVeraSansMono' pointSize: aScaleFactor*10+12 emphasis: 0. 
+	normal2 := TTCFont familyName: 'BitstreamVeraSansMono' pointSize: aScaleFactor*5+12 emphasis: 0.
 	Preferences
 		setBalloonHelpFontTo: normal2;
 		setButtonFontTo: normal2;

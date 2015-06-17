@@ -3,7 +3,7 @@ initializeDemoModeButton
 
 	self button: ((PluggableButtonMorphPlus new) 
 		model: self; 
-		position: ((15+(self stepButtonList size*20))@30) + self class DefaultGuiPosition; 
+		position: ((10)@150) + self class DefaultGuiPosition; 
 		extent: 40@20;
 		enabled: false;
 		label: self class StringLeaveMode; 

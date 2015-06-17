@@ -1,6 +1,6 @@
 initialization
 initializeGuiBackground 
 	
-	self extent: 250@55; 
+	self extent: 160@255; 
 		position: self class DefaultGuiPosition; 
 		color: ((Color blue) alpha: 0.4).
