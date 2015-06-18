@@ -9,5 +9,4 @@ initialize
 		initializeToggleShowKeysButton;
 		initializeScreenCastButton;
 		initializeSlider;
-		updateGui; 
-		openInWorld.
+		updateGui.

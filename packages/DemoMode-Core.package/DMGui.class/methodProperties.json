@@ -6,7 +6,8 @@
 		"StringLeaveMode" : "mj 6/3/2015 15:44",
 		"StringShowingKeys" : "goldfisch 6/8/2015 02:43",
 		"StringStartRecord" : "bf 6/8/2015 23:32",
-		"StringStopRecord" : "bf 6/8/2015 23:32" },
+		"StringStopRecord" : "bf 6/8/2015 23:32",
+		"open" : "mj 6/18/2015 17:40" },
 	"instance" : {
 		"applyButton" : "mj 6/17/2015 17:18",
 		"applyButton:" : "mj 6/17/2015 17:19",
@@ -19,7 +20,7 @@
 		"fontPreview" : "mj 6/17/2015 14:13",
 		"fontPreview:" : "mj 6/17/2015 14:13",
 		"inDemoMode" : "BF 5/13/2015 00:10",
-		"initialize" : "bf 6/18/2015 12:58",
+		"initialize" : "mj 6/18/2015 17:40",
 		"initializeCloseButton" : "mj 6/9/2015 11:49",
 		"initializeDemoModeButton" : "bf 6/18/2015 12:59",
 		"initializeDemoModeButtons" : "bf 6/18/2015 12:59",
