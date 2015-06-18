@@ -1,3 +1,3 @@
-initialization
+accessing
 applyButton: anObject
 	applyButton := anObject

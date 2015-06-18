@@ -1,3 +1,3 @@
 as yet unclassified
-TimeToLive 
+timeToLive 
 	^ 6000

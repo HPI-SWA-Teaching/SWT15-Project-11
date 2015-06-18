@@ -7,6 +7,6 @@ initialize
 		initializeDemoModeButtons;
 		initializeCloseButton;
 		initializeToggleShowKeysButton;
-		initializeScreenCastButton;
+		initializeScreenCastPanel;
 		initializeSlider;
 		updateGui.

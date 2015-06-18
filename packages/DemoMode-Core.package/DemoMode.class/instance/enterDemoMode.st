@@ -6,5 +6,5 @@ enterDemoMode
 	self inputHandler startDetectInput.
 	self viewHandler showBigMouse. "saveFonts removed"
 
-	self setState: self class DefaultEnterState.
+	self setState: self class defaultEnterState.
 	self updateGuis.

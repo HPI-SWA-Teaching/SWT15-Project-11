@@ -14,5 +14,5 @@ leaveDemoMode
 
 	DMMouseHighlighter allInstancesDo: [:h | h delete].
 
-	self state: self class StateOff.
+	self state: self class stateOff.
 	self updateGuis.

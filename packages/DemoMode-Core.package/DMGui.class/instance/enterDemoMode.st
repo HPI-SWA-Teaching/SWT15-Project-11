@@ -1,5 +1,5 @@
 access-demomode
 enterDemoMode
 
-	DemoMode uniqueInstance enterDemoMode.
+	self demoMode enterDemoMode.
 	self updateGui.

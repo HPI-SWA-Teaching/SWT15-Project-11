@@ -1,4 +1,4 @@
 constants
-StringEnterMode
+stringEnterMode
 
 	^ 'Enter Demo Mode'

@@ -3,7 +3,7 @@ initialize
 
 	super initialize.
 
-	self state: self class StateOff;
+	self state: self class stateOff;
 		showKeysState: false;
 		initializeViewHandler;
 		initializeInputHandler;

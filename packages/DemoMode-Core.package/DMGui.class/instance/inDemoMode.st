@@ -1,4 +1,4 @@
 access-demomode
 inDemoMode
 
-	^ DemoMode uniqueInstance inDemoMode
+	^ self demoMode inDemoMode

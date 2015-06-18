@@ -1,4 +1,4 @@
 constants
-StringStopRecord
+stringStopRecord
 
 	^ 'Stop Record'

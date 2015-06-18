@@ -1,15 +1,15 @@
 access-demomode
 toggleRecordButton
 
-	DemoMode uniqueInstance screenCast state = DMScreenCast StateIdle ifTrue: [
-		(DemoMode uniqueInstance screenCast) 
-			state: DMScreenCast StateRecording;
+	self demoMode screenCast state = DMScreenCast stateIdle ifTrue: [
+		(self demoMode screenCast) 
+			state: DMScreenCast stateRecording;
 			startRecord.
-		self screenCastButton label: self class StringStopRecord] 
+		self screenCastRecordButton label: self class stringStopRecord] 
 	ifFalse: [
-		DemoMode uniqueInstance screenCast state = DMScreenCast StateRecording 			ifTrue: [
-				(DemoMode uniqueInstance screenCast) 
-					state: DMScreenCast StateIdle;
+		self demoMode screenCast state = DMScreenCast stateRecording 			ifTrue: [
+				(self demoMode screenCast) 
+					state: DMScreenCast stateIdle;
 					stopRecord;
 					playVideo.
-				self screenCastButton label: self class StringStartRecord]]
+				self screenCastRecordButton label: self class stringStartRecord]]

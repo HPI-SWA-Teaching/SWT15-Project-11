@@ -1,4 +1,4 @@
 access-demomode
 demoModeState
 
-	^ DemoMode uniqueInstance state
+	^ self demoMode state

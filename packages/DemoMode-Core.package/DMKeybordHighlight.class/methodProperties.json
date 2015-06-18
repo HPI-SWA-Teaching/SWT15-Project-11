@@ -1,12 +1,12 @@
 {
 	"class" : {
-		"TimeToLive" : "goldfisch 6/8/2015 17:03",
-		"createKeyStrokeMorph:Event:xLocation:" : "bf 6/8/2015 20:15" },
+		"createKeyStrokeMorph:Event:xLocation:" : "bf 6/8/2015 20:15",
+		"timeToLive" : "bf 6/18/2015 16:52" },
 	"instance" : {
 		"createKeyStrokeMorph:xLocation:" : "goldfisch 6/8/2015 16:40",
 		"currentTimeToLive" : "goldfisch 6/8/2015 16:51",
 		"currentTimeToLive:" : "goldfisch 6/8/2015 16:51",
 		"display" : "goldfisch 6/8/2015 17:23",
 		"display:" : "goldfisch 6/8/2015 17:23",
-		"initialize" : "goldfisch 6/8/2015 16:56",
+		"initialize" : "bf 6/18/2015 16:52",
 		"step" : "bf 6/8/2015 20:37" } }

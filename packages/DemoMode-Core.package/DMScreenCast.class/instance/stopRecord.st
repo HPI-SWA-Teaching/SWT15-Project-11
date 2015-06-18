@@ -1,4 +1,4 @@
 movie
 stopRecord
 
-	self state: self class StateIdle
+	self state: self class stateIdle

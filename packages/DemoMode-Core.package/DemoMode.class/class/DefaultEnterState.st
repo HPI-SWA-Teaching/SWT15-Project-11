@@ -1,4 +1,4 @@
 constants
-DefaultEnterState "min: 1; max: 4"
+defaultEnterState "min: 1; max: 4"
 	
 	^ 1

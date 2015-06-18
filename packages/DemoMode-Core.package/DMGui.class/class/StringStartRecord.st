@@ -1,4 +1,4 @@
 constants
-StringStartRecord
+stringStartRecord
 
 	^ 'Start Record'

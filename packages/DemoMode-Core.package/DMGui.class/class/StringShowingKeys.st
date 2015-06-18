@@ -1,4 +1,4 @@
 constants
-StringShowingKeys
+stringShowingKeys
 
 	^ 'Showing Keys'
