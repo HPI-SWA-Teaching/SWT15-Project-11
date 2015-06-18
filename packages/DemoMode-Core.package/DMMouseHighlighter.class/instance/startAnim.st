@@ -7,7 +7,7 @@ startAnim
 		duration: self class timeToLive;
 		target: self;
 		property: #extent;
-		startValue: ((self class HighlightSize) @ (self class HighlightSize));
+		startValue: ((self class highlightSize) @ (self class highlightSize));
 		endValue: 1@1;
 		start;
 		register.
@@ -16,9 +16,9 @@ startAnim
 		duration: self class timeToLive;
 		target: self;
 		property: #position;
-		startValue: self position + self class HighlightPositionCorrection;
+		startValue: self position + self class highlightPositionCorrection;
 		start;
-		endValue: self position + (2 * self class HighlightPositionCorrection); 
+		endValue: self position + (2 * self class highlightPositionCorrection); 
 		register;
 		finishBlock: [self delete]
 	

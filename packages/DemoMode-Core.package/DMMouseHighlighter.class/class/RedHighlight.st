@@ -1,5 +1,5 @@
 class initialization
-RedHighlight
+redHighlight
 
 	| highlight |
 

@@ -1,4 +1,4 @@
 constants
-HighlightSize
+highlightSize
 
 	^ 50

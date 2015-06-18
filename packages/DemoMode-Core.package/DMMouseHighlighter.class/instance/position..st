@@ -1,4 +1,4 @@
 geometry
 position: aPoint
 
-	super position: (aPoint - self class HighlightPositionCorrection).
+	super position: (aPoint - self class highlightPositionCorrection).

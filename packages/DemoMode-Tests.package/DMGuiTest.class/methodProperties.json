@@ -5,6 +5,9 @@
 		"gui" : "mj 5/26/2015 10:27",
 		"gui:" : "mj 5/26/2015 10:27",
 		"setUp" : "mj 5/26/2015 10:28",
-		"tearDown" : "mj 5/28/2015 09:00",
-		"testButtonList" : "mj 5/26/2015 11:09",
-		"testSetFactor" : "mj 6/3/2015 17:09" } }
+		"tearDown" : "mj 6/18/2015 21:07",
+		"testButtonList" : "mj 6/18/2015 21:03",
+		"testDisabledOffButton" : "mj 6/18/2015 21:05",
+		"testEnabledOffButton" : "mj 6/18/2015 21:12",
+		"testSetFactor" : "mj 6/18/2015 21:03",
+		"testSliderValue" : "mj 6/18/2015 21:12" } }

@@ -1,4 +1,4 @@
 constants
-TimeToLive
+timeToLive
 
 	^ 200

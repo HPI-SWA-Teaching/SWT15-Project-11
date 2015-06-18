@@ -1,15 +1,15 @@
 {
 	"class" : {
-		"BlueHighlight" : "bf 5/26/2015 10:36",
-		"HighlightPositionCorrection" : "bf 5/25/2015 19:57",
-		"HighlightSize" : "bf 5/25/2015 19:57",
-		"RedHighlight" : "bf 5/26/2015 10:36",
-		"TimeToLive" : "BF 5/19/2015 14:05",
-		"YellowHighlight" : "bf 5/26/2015 10:36" },
+		"blueHighlight" : "mj 6/18/2015 20:59",
+		"highlightPositionCorrection" : "mj 6/18/2015 20:57",
+		"highlightSize" : "mj 6/18/2015 20:57",
+		"redHighlight" : "mj 6/18/2015 20:59",
+		"timeToLive" : "mj 6/18/2015 20:57",
+		"yellowHighlight" : "mj 6/18/2015 20:59" },
 	"instance" : {
-		"initialize" : "bf 5/29/2015 10:29",
+		"initialize" : "mj 6/18/2015 20:57",
 		"morphicLayerNumber" : "bf 5/28/2015 23:28",
-		"position:" : "BF 5/19/2015 11:56",
+		"position:" : "mj 6/18/2015 20:58",
 		"running" : "bf 5/29/2015 10:27",
 		"running:" : "bf 5/29/2015 10:27",
-		"startAnim" : "bf 6/18/2015 16:52" } }
+		"startAnim" : "mj 6/18/2015 20:57" } }

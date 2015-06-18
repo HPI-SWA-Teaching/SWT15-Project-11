@@ -1,4 +1,4 @@
 constants
-HighlightPositionCorrection
+highlightPositionCorrection
 
 	^ 25

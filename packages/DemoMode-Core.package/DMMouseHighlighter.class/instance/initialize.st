@@ -2,7 +2,7 @@ parts bin
 initialize
 
 	super initialize.
-	self extent: (self class HighlightSize @ self class HighlightSize); 
+	self extent: (self class highlightSize @ self class highlightSize); 
 		color: ((Color white) alpha: 0.5);
 		lock;
 		running: false;

@@ -1,3 +1,4 @@
 as yet unclassified
-tearDown 
+tearDown
+	self gui leaveDemoMode.
 	self gui delete.
