@@ -1,0 +1,4 @@
+initialization
+initializeCaptureMorph
+
+	self captureMorph: DMScreenCastCaptureMorph new openInWorld.

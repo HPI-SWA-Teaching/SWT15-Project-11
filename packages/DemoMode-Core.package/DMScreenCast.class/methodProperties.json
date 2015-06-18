@@ -3,8 +3,12 @@
 		"StateIdle" : "bf 6/8/2015 21:59",
 		"StateRecording" : "bf 6/8/2015 21:58" },
 	"instance" : {
-		"captureScreen" : "bf 6/8/2015 22:08",
+		"captureMorph" : "bf 6/18/2015 11:33",
+		"captureMorph:" : "bf 6/18/2015 11:33",
+		"captureScreen" : "bf 6/18/2015 13:09",
 		"initialize" : "bf 6/8/2015 22:02",
+		"initializeCaptureMorph" : "bf 6/18/2015 11:33",
+		"kill" : "bf 6/18/2015 11:43",
 		"playVideo" : "bf 6/9/2015 00:04",
 		"screenshots" : "bf 6/8/2015 22:00",
 		"screenshots:" : "bf 6/8/2015 22:00",

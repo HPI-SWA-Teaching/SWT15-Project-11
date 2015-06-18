@@ -6,12 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"screenshots",
-		"timer",
-		"state",
-		"captureMorph" ],
-	"name" : "DMScreenCast",
+		"labelArea" ],
+	"name" : "DMScreenCastCaptureMorph",
 	"pools" : [
 		 ],
-	"super" : "Morph",
+	"super" : "BorderedMorph",
 	"type" : "normal" }
