@@ -5,7 +5,7 @@ initializeSlider
 	self slider position: self class defaultGuiRow0Pos1;
 		 extent: 25 @ 130;
 		 value: 0.4.
-	self slider menuButton delete.
+	self slider menuButton hide.
 	t1 := PluggableTextMorphPlus new.
 	t1 setText: 'preview:';
 		 position: self class defaultGuiRow0Pos2;
