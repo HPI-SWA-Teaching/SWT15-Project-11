@@ -4,7 +4,9 @@ handleKeyboardEvent: evt
  | string activeKey |
  	
 	evt isKeyDown
- 		ifTrue: [string := ''.
+		ifTrue: [
+			self handleShortcut: evt.
+    				string := ''.
    			evt commandKeyPressed
    	 			ifTrue: [string := string , 'cmd '].
    			evt controlKeyPressed
