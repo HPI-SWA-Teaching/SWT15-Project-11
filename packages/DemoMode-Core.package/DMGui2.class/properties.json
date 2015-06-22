@@ -6,7 +6,6 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"window",
 		"button",
 		"stepButtonList",
 		"showKeysStateButton",
@@ -14,11 +13,9 @@
 		"screenCastCaptureButton",
 		"slider",
 		"fontPreview",
-		"applyButton",
-		"label",
-		"initializeWindow" ],
+		"applyButton" ],
 	"name" : "DMGui2",
 	"pools" : [
 		 ],
-	"super" : "Morph",
+	"super" : "PluggableSystemWindow",
 	"type" : "normal" }

@@ -1,5 +1,5 @@
 initialization
 deleteCaptureMorph
 
-	self captureMorph delete.
+	self captureMorph isNil ifFalse: [self captureMorph delete].
 	self captureMorph: nil
