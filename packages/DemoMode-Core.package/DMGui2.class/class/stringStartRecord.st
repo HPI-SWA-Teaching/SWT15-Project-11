@@ -1,0 +1,4 @@
+constants
+stringStartRecord
+
+	^ 'Start Record'

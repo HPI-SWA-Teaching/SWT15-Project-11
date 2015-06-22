@@ -1,0 +1,4 @@
+constants
+stringStopRecord
+
+	^ 'Stop Record'
