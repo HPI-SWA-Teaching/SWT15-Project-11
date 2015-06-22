@@ -1,5 +1,7 @@
 as yet unclassified
 kill
 
-	self deleteCaptureMorph.
-	self delete.
+	self deleteCaptureMorph;
+		delete.
+
+	DemoMode uniqueInstance screenCast: nil

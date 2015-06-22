@@ -5,5 +5,4 @@ initialize
 
 	self layoutPolicy: ProportionalLayout new;
 		initializeLook;
-		"initializeLabelArea;"
 		initializeBorderGrips.
