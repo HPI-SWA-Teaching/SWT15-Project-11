@@ -1,7 +1,7 @@
 instance
 close
 
-	uniqueInstance ifNil: [ ^ false ].
+	uniqueInstance ifNil: [ ^ self ].
 
 	uniqueInstance leaveDemoMode.
 	uniqueInstance := nil
