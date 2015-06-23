@@ -1,0 +1,18 @@
+{
+	"class" : {
+		"defaultSliderValue" : "mj 6/23/2015 11:21",
+		"extentSliderValue" : "mj 6/23/2015 11:36",
+		"extentValue" : "mj 6/23/2015 11:25",
+		"previewTextExtent" : "mj 6/23/2015 11:24",
+		"previewTextPosition" : "mj 6/23/2015 11:24" },
+	"instance" : {
+		"fontPreview" : "mj 6/23/2015 09:54",
+		"fontPreview:" : "mj 6/23/2015 09:54",
+		"initialize" : "mj 6/23/2015 11:25",
+		"initializePreviewText" : "mj 6/23/2015 11:26",
+		"initializeSlider" : "mj 6/23/2015 11:36",
+		"slider" : "mj 6/23/2015 09:54",
+		"slider:" : "mj 6/23/2015 09:54",
+		"step" : "mj 6/23/2015 11:10",
+		"stepTime" : "mj 6/23/2015 11:11",
+		"updateFontPreview" : "mj 6/23/2015 11:14" } }

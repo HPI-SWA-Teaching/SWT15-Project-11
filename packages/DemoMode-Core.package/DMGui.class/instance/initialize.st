@@ -1,4 +1,4 @@
 initialization
 initialize
 	super initialize.
-	self initializeWindow; initializeDemoModeButtons; initializeToggleShowKeysButton; initializeScreenCastPanel; initializeSlider; updateGui
+	self initializeWindow; initializeDemoModeButtons; initializeToggleShowKeysButton; initializeScreenCastPanel; initializeFontPreview; updateGui.

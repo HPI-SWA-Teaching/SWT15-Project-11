@@ -1,4 +1,4 @@
 constants
 label
 
-	^ 'Demomode'
+	^ 'Demo Mode'
