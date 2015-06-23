@@ -1,20 +1,15 @@
 initialization
 initializeDemoModeButtons
-
-	self applyButton: ((PluggableButtonMorphPlus new) 
-		model: self; 
-		position: ((10)@160) + self class defaultGuiPosition; 
-		extent: 60@20;
-		color: Color green;
-		label: 'Apply';
-		action: #applyCurrentFactor).
-
-	self button: ((PluggableButtonMorphPlus new) 
-		model: self; 
-		position: ((70)@160) + self class defaultGuiPosition; 
-		extent: 40@20;
-		enabled: false;
-		label: self class stringLeaveMode;
-		action: #leaveDemoMode).
-	
-	self addMorph: self applyButton; addMorph: self button.
+	self applyButton: (PluggableButtonMorphPlus new model: self;
+			 position: self class defaultGuiRow1Pos1;
+			 extent: self class defaultButtonSize;
+			 offColor: Color green;
+			 label: 'Apply';
+			 action: #applyCurrentFactor).
+	self button: (PluggableButtonMorphPlus new model: self;
+			 position: self class defaultGuiRow1Pos2;
+			 label: self class stringLeaveMode;
+			 action: #leaveDemoMode;
+			 extent: self class defaultButtonSize).
+	self addMorph: self applyButton;
+		 addMorph: self button

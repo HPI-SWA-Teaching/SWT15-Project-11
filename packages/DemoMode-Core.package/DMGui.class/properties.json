@@ -17,5 +17,5 @@
 	"name" : "DMGui",
 	"pools" : [
 		 ],
-	"super" : "Morph",
+	"super" : "PluggableSystemWindow",
 	"type" : "normal" }

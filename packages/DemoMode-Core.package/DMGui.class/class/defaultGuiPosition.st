@@ -1,4 +1,4 @@
 constants
 defaultGuiPosition
 
-	^10@90
+	^10@ 20

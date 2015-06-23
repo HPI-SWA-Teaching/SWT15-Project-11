@@ -1,4 +1,0 @@
-constants
-stringStopRecord
-
-	^ 'Stop Record'
