@@ -2,6 +2,6 @@ running
 testCloseDemoMode
 
 	
-	DemoMode close.
-	self assert: (self demo = DemoMode uniqueInstance) not.
+	DMDemoMode close.
+	self assert: (self demo = DMDemoMode uniqueInstance) not.
 	"self assert: self demo = nil."

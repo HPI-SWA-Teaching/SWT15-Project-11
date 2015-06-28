@@ -2,5 +2,5 @@ running
 setUp
 	super setUp.
 
-	DemoMode close.
-	self demo: DemoMode new
+	DMDemoMode close.
+	self demo: DMDemoMode new

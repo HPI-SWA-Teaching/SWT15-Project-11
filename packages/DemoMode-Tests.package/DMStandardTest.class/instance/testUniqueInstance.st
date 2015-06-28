@@ -1,4 +1,4 @@
 running
 testUniqueInstance
 
-	self assert: self demo = DemoMode uniqueInstance
+	self assert: self demo = DMDemoMode uniqueInstance

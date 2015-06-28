@@ -1,4 +1,3 @@
 as yet unclassified
 demoMode
-
-	^ DMDemoMode uniqueInstance
+	^DMDemoMode uniqueInstance.

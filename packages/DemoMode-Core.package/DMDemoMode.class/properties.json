@@ -14,7 +14,7 @@
 		"screenCast",
 		"hotkeyHandler",
 		"showClicksState" ],
-	"name" : "DemoMode",
+	"name" : "DMDemoMode",
 	"pools" : [
 		 ],
 	"super" : "Object",
