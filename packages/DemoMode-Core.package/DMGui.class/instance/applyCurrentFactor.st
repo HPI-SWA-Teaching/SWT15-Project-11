@@ -4,6 +4,6 @@ applyCurrentFactor
 		self leaveDemoMode.
 	] 
 	ifFalse: [
-		self setDemoModeState: (self ui slider currentValue*0.01).
+		self setDemoModeState: self currentFactor.
 		self updateGui.
 	].

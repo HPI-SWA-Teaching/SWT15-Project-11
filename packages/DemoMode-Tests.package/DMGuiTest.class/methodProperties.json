@@ -2,13 +2,17 @@
 	"class" : {
 		 },
 	"instance" : {
+		"demoMode" : "mj 6/29/2015 00:33",
 		"gui" : "mj 5/26/2015 10:27",
 		"gui:" : "mj 5/26/2015 10:27",
 		"setUp" : "mj 5/26/2015 10:28",
 		"tearDown" : "mj 6/18/2015 21:07",
+		"testApplyFactor" : "mj 6/29/2015 00:46",
 		"testButtonList" : "mj 6/18/2015 21:03",
-		"testDisabledOffButton" : "mj 6/18/2015 21:05",
-		"testEnabledOffButton" : "mj 6/18/2015 21:12",
+		"testDisabledClicksBox" : "mj 6/29/2015 00:46",
+		"testDisabledKeysBox" : "mj 6/29/2015 00:46",
+		"testEnabledClicksBox" : "mj 6/29/2015 00:47",
+		"testEnabledKeysBox" : "mj 6/29/2015 00:47",
 		"testMenuIntegration" : "jf 6/22/2015 22:22",
 		"testSetFactor" : "mj 6/18/2015 21:03",
-		"testSliderValue" : "mj 6/23/2015 11:42" } }
+		"testSliderValue" : "mj 6/29/2015 00:50" } }

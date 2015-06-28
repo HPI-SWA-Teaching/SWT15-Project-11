@@ -8,7 +8,7 @@
 		"stopRecordIcon" : "mj 7/27/2015 12:01" },
 	"instance" : {
 		"adaptStates" : "mj 7/27/2015 12:12",
-		"applyCurrentFactor" : "mj 7/27/2015 11:35",
+		"applyCurrentFactor" : "mj 6/29/2015 00:45",
 		"close" : "mj 7/17/2015 21:58",
 		"closeSelectedMorph" : "mj 7/27/2015 11:36",
 		"connectButtons" : "mj 7/27/2015 11:24",
@@ -20,7 +20,7 @@
 		"fontPreview" : "mj 7/13/2015 12:30",
 		"fontPreview:" : "mj 7/13/2015 12:31",
 		"hasCaptureMorph" : "mj 7/17/2015 23:10",
-		"initialize" : "mj 7/27/2015 11:30",
+		"initialize" : "mj 6/29/2015 00:40",
 		"leaveDemoMode" : "mj 7/13/2015 15:27",
 		"openCaptureMorph" : "mj 7/17/2015 23:24",
 		"openScreenCastCrosshair" : "mj 7/17/2015 23:07",
