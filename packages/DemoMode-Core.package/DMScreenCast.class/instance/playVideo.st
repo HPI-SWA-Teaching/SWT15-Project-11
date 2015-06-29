@@ -3,6 +3,7 @@ playVideo
 
 	| movie |
 
+	self saveVideo.
 	self screenshots isEmpty not ifTrue: [
 		movie := ((MovieMorph new) 
 			insertFrames: self screenshots;
