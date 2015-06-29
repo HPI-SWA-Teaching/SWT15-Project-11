@@ -3,7 +3,10 @@ addCursorToImage: image offset: offset
 	
 	| cursor |
 
-	cursor := Cursor currentCursor asMorph imageForm.
+	ActiveHand temporaryCursor isNil ifTrue: [
+		cursor := Cursor currentCursor asMorph imageForm] 
+	ifFalse: [
+		cursor := ActiveHand temporaryCursor].
 
 	0 to: cursor height do: [ :h |
 		0 to: cursor width do: [ :w |
