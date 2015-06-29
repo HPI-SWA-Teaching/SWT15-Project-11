@@ -9,4 +9,6 @@ openSaveGui
 	name ifNotEmpty: [
 		(name endsWith: self class stringFileEncoding) 
 			ifFalse: [name := name , self class stringFileEncoding].
-		self saveVideo: name]
+		self saveVideo: name].
+
+	self deleteAllScreenshots
