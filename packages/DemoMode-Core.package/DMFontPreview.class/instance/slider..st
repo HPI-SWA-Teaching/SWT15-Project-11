@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 slider: anObject
 	slider := anObject
