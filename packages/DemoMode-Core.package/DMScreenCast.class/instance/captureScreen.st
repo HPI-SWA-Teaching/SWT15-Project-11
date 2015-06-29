@@ -3,7 +3,7 @@ captureScreen
 
 	| image |
 
-	self captureMorph isNil
+	self isFullScreen
 		ifTrue: [image := self captureScreenFromFullScreen.
 			self addCursorToImage: image offset: ActiveHand cursorPoint.
 			image := image magnifyBy: 0.5]

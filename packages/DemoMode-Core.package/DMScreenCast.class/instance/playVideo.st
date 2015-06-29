@@ -7,7 +7,7 @@ playVideo
 	self screenshots isEmpty not ifTrue: [
 		movie := ((MovieMorph new) 
 			insertFrames: self screenshots;
-			msecsPerFrame: self stepTime;
+			msecsPerFrame: self stepTime / 2;
 			extent: ((self screenshots at: 1) extent);
 			playOnce).
 		movie currentFrame referencePosition: (movie extent / 2) - 1.

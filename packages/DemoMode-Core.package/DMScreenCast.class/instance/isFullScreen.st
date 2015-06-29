@@ -1,0 +1,4 @@
+accessing
+isFullScreen
+
+	^ isFullScreen

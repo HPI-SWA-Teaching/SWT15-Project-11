@@ -1,5 +1,6 @@
 initialization
 deleteCaptureMorph
 
-	self captureMorph isNil ifFalse: [self captureMorph delete].
-	self captureMorph: nil
+	self isFullScreen ifFalse: [self captureMorph delete].
+	self captureMorph: nil;
+		isFullScreen: true

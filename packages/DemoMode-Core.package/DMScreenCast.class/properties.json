@@ -9,7 +9,8 @@
 		"screenshots",
 		"timer",
 		"state",
-		"captureMorph" ],
+		"captureMorph",
+		"isFullScreen" ],
 	"name" : "DMScreenCast",
 	"pools" : [
 		 ],
