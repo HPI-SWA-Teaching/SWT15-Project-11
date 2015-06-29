@@ -3,9 +3,12 @@
 		"stateIdle" : "bf 6/18/2015 16:49",
 		"stateRecording" : "bf 6/18/2015 16:49" },
 	"instance" : {
+		"addCursorToImage:offset:" : "bf 6/29/2015 11:26",
 		"captureMorph" : "bf 6/18/2015 11:33",
 		"captureMorph:" : "bf 6/18/2015 11:33",
-		"captureScreen" : "bf 6/22/2015 10:54",
+		"captureScreen" : "bf 6/29/2015 11:36",
+		"captureScreenFromCaptureMorph" : "bf 6/29/2015 11:17",
+		"captureScreenFromFullScreen" : "bf 6/29/2015 11:20",
 		"deleteCaptureMorph" : "bf 6/22/2015 11:03",
 		"initialExtent" : "bf 6/22/2015 13:00",
 		"initialize" : "bf 6/18/2015 16:50",

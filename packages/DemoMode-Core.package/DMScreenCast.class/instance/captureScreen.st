@@ -4,11 +4,11 @@ captureScreen
 	| image |
 
 	self captureMorph isNil
-		ifTrue: [image := World imageForm magnifyBy: 0.5]
-		ifFalse: [
-			image := World imageFormForRectangle: 
-				(Rectangle 
-					origin: self captureMorph position + DMScreenCastCaptureMorph borderWidth 
-					extent: self captureMorph extent - (DMScreenCastCaptureMorph borderWidth * 2))].
+		ifTrue: [image := self captureScreenFromFullScreen.
+			self addCursorToImage: image offset: ActiveHand cursorPoint.
+			image := image magnifyBy: 0.5]
+		ifFalse: [image := self captureScreenFromCaptureMorph.
+			self addCursorToImage: image offset: ActiveHand cursorPoint
+				- self captureMorph position].
 
 	self screenshots add: (SketchMorph new form: image)
