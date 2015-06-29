@@ -7,9 +7,10 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"currentTimeToLive",
-		"display" ],
+		"display",
+		"textMorph" ],
 	"name" : "DMKeybordHighlight",
 	"pools" : [
 		 ],
-	"super" : "TextMorph",
+	"super" : "BorderedMorph",
 	"type" : "normal" }

@@ -4,4 +4,3 @@ initialize
 	super initialize.
 
 	self currentTimeToLive: self class timeToLive.
-	

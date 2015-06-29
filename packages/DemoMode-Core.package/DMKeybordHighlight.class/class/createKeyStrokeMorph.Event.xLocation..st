@@ -1,9 +1,20 @@
 as yet unclassified
 createKeyStrokeMorph: KeyDisplay Event: aKeyboardEvent xLocation: xValue
 	""
-	^ ((DMKeybordHighlight new) position: xValue@30;
+	| text highlight |
+
+	text := ((TextMorph new)
 		contents: aKeyboardEvent;
 		lock;
 		backgroundColor: Color yellow;
+		margins: 4).
+
+	highlight := ((DMKeybordHighlight new) position: xValue@30;
 		display: KeyDisplay;
-		margins: 5@0). 
+		extent: text extent + 4;
+		textMorph: text;
+		addMorph: text).
+
+	highlight textMorph position: highlight position + 2.
+
+	^ highlight	

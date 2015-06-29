@@ -1,12 +1,14 @@
 {
 	"class" : {
-		"createKeyStrokeMorph:Event:xLocation:" : "bf 6/8/2015 20:15",
+		"createKeyStrokeMorph:Event:xLocation:" : "bf 6/29/2015 23:00",
 		"timeToLive" : "bf 6/18/2015 16:52" },
 	"instance" : {
-		"createKeyStrokeMorph:xLocation:" : "goldfisch 6/8/2015 16:40",
+		"createKeyStrokeMorph:xLocation:" : "bf 6/29/2015 22:45",
 		"currentTimeToLive" : "goldfisch 6/8/2015 16:51",
 		"currentTimeToLive:" : "goldfisch 6/8/2015 16:51",
 		"display" : "goldfisch 6/8/2015 17:23",
 		"display:" : "goldfisch 6/8/2015 17:23",
-		"initialize" : "bf 6/18/2015 16:52",
-		"step" : "bf 6/8/2015 20:37" } }
+		"initialize" : "bf 6/29/2015 22:58",
+		"step" : "bf 6/8/2015 20:37",
+		"textMorph" : "bf 6/29/2015 22:49",
+		"textMorph:" : "bf 6/29/2015 22:49" } }
