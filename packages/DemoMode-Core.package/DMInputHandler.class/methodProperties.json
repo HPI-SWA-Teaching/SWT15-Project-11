@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"WindowsInputTable" : "bf 5/28/2015 18:32" },
+		 },
 	"instance" : {
 		"createMouseHighlight:" : "mj 6/18/2015 20:59",
 		"endDetectInput" : "goldfisch 6/8/2015 17:16",
@@ -12,7 +12,6 @@
 		"handleMouseEvent:" : "bf 6/1/2015 12:32",
 		"handleShortcut:" : "mj 6/23/2015 00:02",
 		"initialize" : "bf 5/28/2015 14:31",
-		"initializeInputTable" : "bf 5/28/2015 14:36",
 		"initializeKeyWindow" : "goldfisch 6/8/2015 17:15",
 		"inputTable" : "bf 5/28/2015 14:28",
 		"inputTable:" : "bf 5/28/2015 14:28",
