@@ -1,7 +1,5 @@
 access-demomode
 toggleCaptureButton
-	self demoMode screenCast isNil
-		ifTrue: [self demoMode initializeScreenCast].
 	self screenCastCaptureButton label = self class stringOpenCaptureMorph
 		ifTrue: [self screenCastCaptureButton label: self class stringDeleteCaptureMorph.
 			self demoMode screenCast openCaptureMorph]

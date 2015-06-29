@@ -1,7 +1,5 @@
 access-demomode
 toggleRecordButton
-	self demoMode screenCast isNil
-		ifTrue: [self demoMode initializeScreenCast].
 	self demoMode screenCast state = DMScreenCast stateIdle
 		ifTrue: [self demoMode screenCast state: DMScreenCast stateRecording;
 				 startRecord.

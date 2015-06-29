@@ -6,5 +6,4 @@ initialize
 	self state: self class stateOff;
 		showKeysState: false;
 		initializeViewHandler;
-		initializeInputHandler;
-		initializeScreenCast
+		initializeInputHandler
