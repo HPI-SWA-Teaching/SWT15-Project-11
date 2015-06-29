@@ -6,7 +6,7 @@ createKeyStrokeMorph: KeyDisplay Event: aKeyboardEvent xLocation: xValue
 	text := ((TextMorph new)
 		contents: aKeyboardEvent;
 		lock;
-		backgroundColor: Color yellow;
+		backgroundColor: self backgroundColor;
 		margins: 4).
 
 	highlight := ((DMKeybordHighlight new) position: xValue@30;

@@ -1,6 +1,7 @@
 {
 	"class" : {
-		"createKeyStrokeMorph:Event:xLocation:" : "bf 6/29/2015 23:00",
+		"backgroundColor" : "bf 6/29/2015 23:12",
+		"createKeyStrokeMorph:Event:xLocation:" : "bf 6/29/2015 23:13",
 		"timeToLive" : "bf 6/18/2015 16:52" },
 	"instance" : {
 		"createKeyStrokeMorph:xLocation:" : "bf 6/29/2015 22:45",
