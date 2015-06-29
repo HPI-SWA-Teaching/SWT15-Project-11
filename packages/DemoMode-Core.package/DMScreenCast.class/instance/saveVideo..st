@@ -1,9 +1,9 @@
 as yet unclassified
-saveVideo 
+saveVideo: fileName
 
 	| writer |
 
-	writer := AnimatedGIFReadWriter on: (FileStream newFileNamed: 'foo.gif').
+	writer := AnimatedGIFReadWriter on: (FileStream newFileNamed: fileName).
 	writer delay: self stepTime / 10.
 
 	Cursor write showWhile: [[

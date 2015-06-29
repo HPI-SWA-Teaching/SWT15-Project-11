@@ -12,4 +12,4 @@ toggleRecordButton
 						ifTrue: [self toggleCaptureButton].
 					self demoMode screenCast state: DMScreenCast stateIdle;
 						 stopRecord;
-						 playVideo]]
+						 openSaveGui]]

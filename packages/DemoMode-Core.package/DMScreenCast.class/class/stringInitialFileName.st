@@ -1,0 +1,4 @@
+constants
+stringInitialFileName
+
+	^ 'video.gif'
