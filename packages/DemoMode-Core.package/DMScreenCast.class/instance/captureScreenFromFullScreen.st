@@ -1,4 +1,9 @@
 movie
 captureScreenFromFullScreen
 
-	^ World imageForm
+	| image | 
+
+	image := World imageForm.
+	self addCursorToImage: image offset: ActiveHand cursorPoint.
+
+	^ image
