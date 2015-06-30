@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"demoMode" : "mj 6/30/2015 00:02",
+		"handleListenEvent:" : "mj 6/30/2015 02:26",
+		"initialize" : "mj 6/29/2015 23:12",
+		"registerListener" : "mj 6/29/2015 23:12",
+		"startRecord" : "mj 6/30/2015 00:14",
+		"startStopScreenCast" : "mj 6/30/2015 00:30",
+		"stopRecord" : "mj 6/30/2015 02:26" } }
