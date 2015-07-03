@@ -1,7 +1,5 @@
 as yet unclassified
 handleListenEvent: evt 
-	"evt isKeyDown
-		ifTrue: [
-   			evt controlKeyPressed & evt shiftPressed	
-				ifTrue: [ self startStopScreenCast ].
-		]."
+
+	evt keyString = '<Ctrl-Shift-a>'
+		ifTrue: [self startStopScreenCast]

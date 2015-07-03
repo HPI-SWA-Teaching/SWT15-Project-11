@@ -8,4 +8,6 @@ updateGui
 			self extent: self class dimension].
 	DemoMode uniqueInstance showKeysState
 		ifTrue: [self showKeysStateButton label: self class stringShowingKeys]
-		ifFalse: [self showKeysStateButton label: self class stringHidingKeys]
+		ifFalse: [self showKeysStateButton label: self class stringHidingKeys].
+
+	self updateScreenCastButtons.

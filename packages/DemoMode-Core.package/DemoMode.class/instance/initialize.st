@@ -6,4 +6,5 @@ initialize
 	self state: self class stateOff;
 		showKeysState: false;
 		initializeViewHandler;
-		initializeInputHandler
+		initializeInputHandler.
+	self hotkeyHandler: DMHotkeyHandler new.

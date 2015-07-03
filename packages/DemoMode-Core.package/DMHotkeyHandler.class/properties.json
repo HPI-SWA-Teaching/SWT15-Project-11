@@ -1,12 +1,12 @@
 {
 	"category" : "DemoMode-Core",
 	"classinstvars" : [
-		 ],
+		"uniqueInstance" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"sMorph" ],
 	"name" : "DMHotkeyHandler",
 	"pools" : [
 		 ],

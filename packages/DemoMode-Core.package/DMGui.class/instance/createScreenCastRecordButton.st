@@ -6,4 +6,5 @@ createScreenCastRecordButton
 		extent: (self class dimension x - 30@35);
 		label: self class stringStartRecord; 
 		offColor: Color orange; 
-		action: #toggleRecordButton)
+		action: #toggleRecordButton;
+		balloonText: self class recordBalloon)

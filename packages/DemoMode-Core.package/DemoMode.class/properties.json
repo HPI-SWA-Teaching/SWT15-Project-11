@@ -11,7 +11,8 @@
 		"inputHandler",
 		"fontDictionary",
 		"showKeysState",
-		"screenCast" ],
+		"screenCast",
+		"hotkeyHandler" ],
 	"name" : "DemoMode",
 	"pools" : [
 		 ],
