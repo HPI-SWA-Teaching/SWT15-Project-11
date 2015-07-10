@@ -1,7 +1,8 @@
 movie
 startRecord
 
-	self state: DMScreenCastRecorder stateRecording.
+	self screenshots: OrderedCollection new;
+		state: DMScreenCastRecorder stateRecording.
 
 	self screenshots: OrderedCollection new;
 		state: self class stateRecording.

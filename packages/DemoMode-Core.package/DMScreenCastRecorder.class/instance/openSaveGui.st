@@ -7,5 +7,3 @@ openSaveGui
 		initialAnswer: self class stringInitialFileName.
 
 	name ifNotEmpty: [self saveVideo: (self checkGifName: name)].
-
-	self deleteAllScreenshots

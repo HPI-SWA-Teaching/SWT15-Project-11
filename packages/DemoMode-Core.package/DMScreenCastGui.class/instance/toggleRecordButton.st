@@ -8,5 +8,5 @@ toggleRecordButton
 		ifFalse: [
 			self recordButton label: self class stringStartRecord.
 			self revertCaptureMorph; revertChooseMorph.
-			self recorder openSaveGui; stopRecord.
+			self recorder stopRecord; openSaveGui.
 			self enableCaptureOrChooseButtons: true]
