@@ -1,4 +1,4 @@
-access-demomode
+button
 toggleShowKeysState
 	
 	DemoMode uniqueInstance showKeysState 

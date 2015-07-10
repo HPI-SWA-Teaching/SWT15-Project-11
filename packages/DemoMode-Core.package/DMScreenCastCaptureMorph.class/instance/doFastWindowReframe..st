@@ -1,4 +1,4 @@
-as yet unclassified
+resize/collapse
 doFastWindowReframe: ptName
 
 	| newBounds |

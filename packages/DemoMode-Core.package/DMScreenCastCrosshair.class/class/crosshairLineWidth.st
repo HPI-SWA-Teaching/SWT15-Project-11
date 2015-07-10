@@ -1,0 +1,4 @@
+constants
+crosshairLineWidth
+
+	^ 4
