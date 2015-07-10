@@ -1,0 +1,18 @@
+{
+	"class" : {
+		"defaultFrequency" : "bf 7/10/2015 14:23" },
+	"instance" : {
+		"frequency" : "bf 7/10/2015 14:19",
+		"frequency:" : "bf 7/10/2015 14:19",
+		"initialize" : "bf 7/10/2015 14:44",
+		"initializeLook" : "bf 7/10/2015 14:45",
+		"initializeMovieMorph" : "bf 7/10/2015 14:45",
+		"movie" : "bf 7/10/2015 14:21",
+		"movie:" : "bf 7/10/2015 14:21",
+		"playButton" : "bf 7/10/2015 14:19",
+		"playButton:" : "bf 7/10/2015 14:19",
+		"readGifFromFile:" : "bf 7/10/2015 14:41",
+		"screenshots" : "bf 7/10/2015 14:19",
+		"screenshots:" : "bf 7/10/2015 14:19",
+		"state" : "bf 7/10/2015 14:19",
+		"state:" : "bf 7/10/2015 14:19" } }

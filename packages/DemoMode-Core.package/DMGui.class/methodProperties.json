@@ -31,7 +31,6 @@
 		"button:" : "goldfisch 6/21/2015 12:57",
 		"closeBoxHit" : "bf 6/29/2015 23:36",
 		"closeGui" : "mj 6/23/2015 11:34",
-		"createScreenCastRecordButton" : "mj 7/3/2015 11:03",
 		"demoMode" : "goldfisch 6/21/2015 12:57",
 		"demoModeState" : "goldfisch 6/21/2015 12:57",
 		"enterDemoMode" : "goldfisch 6/21/2015 12:57",
@@ -62,7 +61,6 @@
 		"step" : "goldfisch 6/21/2015 12:57",
 		"stepButtonList" : "goldfisch 6/21/2015 12:57",
 		"stepButtonList:" : "goldfisch 6/21/2015 12:57",
-		"toggleRecordButton" : "mj 7/3/2015 10:00",
 		"toggleShowKeysState" : "goldfisch 6/21/2015 12:57",
 		"updateGui" : "bf 7/10/2015 11:35",
 		"updateScreenCastButtons" : "mj 7/3/2015 10:04" } }
