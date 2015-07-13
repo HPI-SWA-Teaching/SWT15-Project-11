@@ -3,6 +3,4 @@ initialize
 
 	super initialize.
 
-	self frequency: self class defaultFrequency; 
-		initializeMovieMorph;
-		initializeLook
+	self frequency: self class defaultFrequency

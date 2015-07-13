@@ -1,4 +1,4 @@
-as yet unclassified
+fileIn/out
 readGifFromFile: aFileName
 
 	|reader |

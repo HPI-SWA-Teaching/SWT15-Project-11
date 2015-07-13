@@ -1,9 +1,9 @@
 fileIn/out
-saveVideo: fileName
+saveVideo: fileStream
 
 	| writer |
 
-	writer := AnimatedGIFReadWriter on: (FileStream newFileNamed: fileName).
+	writer := AnimatedGIFReadWriter on: fileStream.
 	writer delay: self frequency / 5.
 
 	Cursor write showWhile: [[

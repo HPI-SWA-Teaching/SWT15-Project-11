@@ -1,4 +1,0 @@
-accessing
-playButton
-
-	^ playButton

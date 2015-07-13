@@ -6,13 +6,12 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"movie",
+		"ui",
 		"frequency",
 		"screenshots",
-		"state",
-		"playButton" ],
+		"state" ],
 	"name" : "DMScreenCastPlayer",
 	"pools" : [
 		 ],
-	"super" : "BorderedMorph",
+	"super" : "Morph",
 	"type" : "normal" }
