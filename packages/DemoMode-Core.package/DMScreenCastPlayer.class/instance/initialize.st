@@ -6,4 +6,4 @@ initialize
 	self ui setupUi: self.
 	self initializeVideoLook; setupTouchableUiElements.
 
-	timeAcc := 0.
+	timeAcc := 0

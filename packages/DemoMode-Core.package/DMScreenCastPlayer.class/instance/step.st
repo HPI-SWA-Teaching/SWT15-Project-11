@@ -11,3 +11,5 @@ step
 		"form := self images at: self index.
 		form displayOn: self ui video form at: 0@0 rule: Form paint"].
 	self changed. 
+
+	self updateSlider.

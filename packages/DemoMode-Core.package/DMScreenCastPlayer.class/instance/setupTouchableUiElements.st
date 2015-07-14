@@ -11,4 +11,10 @@ setupTouchableUiElements
 		connect: self ui saveButton
    		signal: #pressed
    		to: self
-   		selector: #toggleSaveButton
+   		selector: #toggleSaveButton.
+
+	self 
+		connect: self ui slider
+   		signal: #sliderMoved:
+   		to: self
+   		selector: #sliderMoved:.
