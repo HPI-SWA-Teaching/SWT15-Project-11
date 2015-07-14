@@ -1,7 +1,10 @@
 {
 	"class" : {
 		"stateIdle" : "bf 7/9/2015 01:23",
-		"stateRecording" : "bf 7/9/2015 01:23" },
+		"stateRecording" : "bf 7/9/2015 01:23",
+		"stringFileEncoding" : "bf 7/9/2015 01:23",
+		"stringInitialFileName" : "bf 7/9/2015 01:23",
+		"stringSaveToFile" : "bf 7/9/2015 01:24" },
 	"instance" : {
 		"addCursorToImage:offset:" : "bf 7/9/2015 01:17",
 		"captureMorph" : "bf 7/9/2015 01:13",
@@ -9,6 +12,7 @@
 		"captureScreen" : "bf 7/13/2015 22:25",
 		"captureScreenFromCaptureMorph" : "bf 7/9/2015 01:18",
 		"captureScreenFromChooseMorph" : "bf 7/10/2015 11:21",
+		"checkGifName:" : "bf 7/9/2015 01:15",
 		"chooseMorph" : "bf 7/9/2015 01:24",
 		"chooseMorph:" : "bf 7/9/2015 01:24",
 		"deleteCaptureMorph" : "bf 7/9/2015 01:25",
@@ -21,7 +25,10 @@
 		"kill" : "bf 7/9/2015 01:14",
 		"openCaptureMorph" : "bf 7/9/2015 01:16",
 		"openInVideoPlayer" : "bf 7/14/2015 14:29",
+		"openSaveGui" : "bf 7/10/2015 12:10",
+		"playVideo" : "bf 7/9/2015 01:19",
 		"revertChooseMorph" : "bf 7/10/2015 11:22",
+		"saveVideo:" : "bf 7/10/2015 11:40",
 		"screenshots" : "bf 7/9/2015 01:13",
 		"screenshots:" : "bf 7/9/2015 01:13",
 		"startRecord" : "bf 7/10/2015 13:49",

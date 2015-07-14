@@ -1,3 +1,3 @@
 as yet unclassified
 ui
-  ^ ui ifNil: [ui := DMGuitestUi new]
+  ^ ui ifNil: [ui := DMDesignerUi new]

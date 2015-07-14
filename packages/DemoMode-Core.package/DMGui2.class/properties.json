@@ -7,7 +7,10 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"ui",
-		"recStep" ],
+		"recStep",
+		"fontPreview",
+		"currentFactor",
+		"demoMode" ],
 	"name" : "DMGui2",
 	"pools" : [
 		 ],

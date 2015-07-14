@@ -6,10 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
+		"slider",
 		"captureMorphButton",
 		"captureAreaButton",
-		"stopRecordButton",
-		"startRecordButton" ],
+		"startRecordButton",
+		"showKeysBox" ],
 	"name" : "DMDesignerUi",
 	"pools" : [
 		 ],
