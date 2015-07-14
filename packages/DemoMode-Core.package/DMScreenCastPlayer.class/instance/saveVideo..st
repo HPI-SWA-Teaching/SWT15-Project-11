@@ -7,5 +7,5 @@ saveVideo: fileStream
 	writer delay: self frequency / 5.
 
 	Cursor write showWhile: [[
-			self screenshots do: [ :image | writer nextPutImage: image form]] 
+			self images do: [ :image | writer nextPutImage: image]] 
 		ensure: [writer close]].

@@ -8,5 +8,5 @@ toggleRecordButton
 		ifFalse: [
 			self recordButton label: self class stringStartRecord.
 			self revertCaptureMorph; revertChooseMorph.
-			self recorder stopRecord; openSaveGui.
+			self recorder stopRecord; openInVideoPlayer.
 			self enableCaptureOrChooseButtons: true]

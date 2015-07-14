@@ -6,16 +6,12 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"ui",
-		"frequency",
-		"images",
-		"state",
-		"oldTimeStep",
-		"timeAcc",
-		"index",
-		"delay" ],
-	"name" : "DMScreenCastPlayer",
+		"captureMorphButton",
+		"captureAreaButton",
+		"stopRecordButton",
+		"startRecordButton" ],
+	"name" : "DMDesignerUi",
 	"pools" : [
 		 ],
-	"super" : "Morph",
+	"super" : "UserInterface",
 	"type" : "normal" }

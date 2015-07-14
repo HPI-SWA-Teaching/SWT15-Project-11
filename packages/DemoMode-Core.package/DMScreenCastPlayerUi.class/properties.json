@@ -1,0 +1,20 @@
+{
+	"category" : "DemoMode-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"video",
+		"slider",
+		"buttonPanel",
+		"openButton",
+		"playButton",
+		"saveButton",
+		"videoBackground" ],
+	"name" : "DMScreenCastPlayerUi",
+	"pools" : [
+		 ],
+	"super" : "UserInterface",
+	"type" : "normal" }

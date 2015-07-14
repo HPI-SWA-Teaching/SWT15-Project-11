@@ -1,6 +1,9 @@
 initialization
-initialize 
+initialize
 
 	super initialize.
 
-	self frequency: self class defaultFrequency
+	self ui setupUi: self.
+	self initializeVideoLook; setupTouchableUiElements.
+
+	timeAcc := 0.

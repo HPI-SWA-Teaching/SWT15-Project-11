@@ -1,4 +1,3 @@
 as yet unclassified
 stopRecord
-	(self demoMode screenCast) stopRecord; 
-		openSaveGui.
+	(self demoMode screenCast) stopRecord; openInVideoPlayer

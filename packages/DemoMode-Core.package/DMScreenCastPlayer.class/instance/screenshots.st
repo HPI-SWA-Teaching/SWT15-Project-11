@@ -1,4 +1,0 @@
-accessing
-screenshots
-
-	^ screenshots
