@@ -10,4 +10,4 @@ toggleOpenButton
 	stream := fc open.
 	self readGifFromFileStream: stream.
 
-	stream flush
+	stream := nil

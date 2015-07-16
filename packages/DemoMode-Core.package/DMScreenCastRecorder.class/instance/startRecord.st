@@ -7,4 +7,6 @@ startRecord
 	self screenshots: OrderedCollection new;
 		state: self class stateRecording.
 	
-	self hasCaptureMorph ifTrue: [self captureMorph lock]
+	self hasCaptureMorph ifTrue: [self captureMorph lock].
+
+	oldTimeStep := Time millisecondClockValue
