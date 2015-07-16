@@ -1,4 +1,4 @@
 as yet unclassified
 stringDirectory
 
-	^ 'screenshots'
+	^ 'screencasts'

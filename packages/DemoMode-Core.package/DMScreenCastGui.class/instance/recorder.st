@@ -1,4 +1,4 @@
 accessing
 recorder
 
-	^ recorder
+	^ recorder ifNil: [recorder := DMScreenCastRecorder new]

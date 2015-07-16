@@ -9,3 +9,5 @@ saveVideo: fileStream
 	Cursor write showWhile: [[
 			self images do: [ :image | writer nextPutImage: image]] 
 		ensure: [writer close]].
+
+	writer flushCode
