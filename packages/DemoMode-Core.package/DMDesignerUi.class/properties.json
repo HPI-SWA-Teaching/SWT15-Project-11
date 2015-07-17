@@ -12,6 +12,7 @@
 		"slider",
 		"showClicksBox",
 		"showKeysBox",
+		"screencastLabel",
 		"fontPreview",
 		"closeButton" ],
 	"name" : "DMDesignerUi",

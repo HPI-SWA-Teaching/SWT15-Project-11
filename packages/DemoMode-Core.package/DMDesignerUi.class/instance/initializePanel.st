@@ -2,10 +2,10 @@ ui - private
 initializePanel
 	"This code is auto-generated. DO NOT modify it because another generation step will overwrite all changes."
 	
-	| unnamedMorph1 unnamedMorph2 unnamedMorph3 |
+	| unnamedMorph1 unnamedMorph2 |
 	
 	panel := UiContainer new.
-	panel extent: (172@220).
+	panel extent: (171@231).
 	panel position: (0@0).
 	panel hResizing: (#rigid).
 	panel vResizing: (#rigid).
@@ -25,7 +25,7 @@ initializePanel
 	panel frameFractions: (0@0 corner: 1@1).
 	panel frameOffsets: (0@0 corner: 0@0).
 	panel balloonText: ('').
-	panel balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.749)).
+	panel balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.741)).
 	panel color: ((Color r: 0.979 g: 0.979 b: 0.972)).
 	panel borderWidth: (0).
 	panel borderStyle2: (#simple).
@@ -34,7 +34,7 @@ initializePanel
 	unnamedMorph1 := UiContainer new.
 	unnamedMorph1 changeTableLayout.
 	unnamedMorph1 extent: (87@31).
-	unnamedMorph1 position: (7@180).
+	unnamedMorph1 position: (7@185).
 	unnamedMorph1 hResizing: (#rigid).
 	unnamedMorph1 vResizing: (#rigid).
 	unnamedMorph1 minWidth: (2).
@@ -53,7 +53,7 @@ initializePanel
 	unnamedMorph1 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph1 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph1 balloonText: (nil).
-	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.741)).
+	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.733)).
 	unnamedMorph1 color: (Color transparent).
 	unnamedMorph1 borderWidth: (0).
 	unnamedMorph1 borderStyle2: (#simple).
@@ -61,7 +61,7 @@ initializePanel
 	captureMorphButton := UiToolButton new.
 	captureMorphButton changeTableLayout.
 	captureMorphButton extent: (22@18).
-	captureMorphButton position: (67@185).
+	captureMorphButton position: (67@190).
 	captureMorphButton hResizing: (#shrinkWrap).
 	captureMorphButton vResizing: (#shrinkWrap).
 	captureMorphButton minWidth: (2).
@@ -96,7 +96,7 @@ initializePanel
 	captureAreaButton := UiToolButton new.
 	captureAreaButton changeTableLayout.
 	captureAreaButton extent: (22@18).
-	captureAreaButton position: (39@185).
+	captureAreaButton position: (39@190).
 	captureAreaButton hResizing: (#shrinkWrap).
 	captureAreaButton vResizing: (#shrinkWrap).
 	captureAreaButton minWidth: (2).
@@ -131,7 +131,7 @@ initializePanel
 	startRecordButton := UiToolButton new.
 	startRecordButton changeTableLayout.
 	startRecordButton extent: (22@18).
-	startRecordButton position: (11@185).
+	startRecordButton position: (11@190).
 	startRecordButton hResizing: (#shrinkWrap).
 	startRecordButton vResizing: (#shrinkWrap).
 	startRecordButton minWidth: (2).
@@ -167,7 +167,7 @@ initializePanel
 	unnamedMorph2 := UiContainer new.
 	unnamedMorph2 changeTableLayout.
 	unnamedMorph2 extent: (156@116).
-	unnamedMorph2 position: (7@64).
+	unnamedMorph2 position: (7@69).
 	unnamedMorph2 hResizing: (#rigid).
 	unnamedMorph2 vResizing: (#rigid).
 	unnamedMorph2 minWidth: (2).
@@ -186,7 +186,7 @@ initializePanel
 	unnamedMorph2 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph2 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph2 balloonText: (nil).
-	unnamedMorph2 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.745)).
+	unnamedMorph2 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.737)).
 	unnamedMorph2 color: (Color transparent).
 	unnamedMorph2 borderWidth: (0).
 	unnamedMorph2 borderStyle2: (#simple).
@@ -194,7 +194,7 @@ initializePanel
 	slider := UiSlider new.
 	slider changeTableLayout.
 	slider extent: (149@16).
-	slider position: (11@72).
+	slider position: (11@77).
 	slider hResizing: (#rigid).
 	slider vResizing: (#rigid).
 	slider minWidth: (2).
@@ -228,7 +228,7 @@ initializePanel
 	showClicksBox := UiCheckBox new.
 	showClicksBox changeTableLayout.
 	showClicksBox extent: (97@20).
-	showClicksBox position: (11@99).
+	showClicksBox position: (11@104).
 	showClicksBox hResizing: (#shrinkWrap).
 	showClicksBox vResizing: (#shrinkWrap).
 	showClicksBox minWidth: (2).
@@ -247,7 +247,7 @@ initializePanel
 	showClicksBox frameFractions: (0@0 corner: 1@1).
 	showClicksBox frameOffsets: (0@0 corner: 0@0).
 	showClicksBox balloonText: (nil).
-	showClicksBox balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.741)).
+	showClicksBox balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.733)).
 	showClicksBox enabled: (true).
 	showClicksBox setProperty: #iconByDesigner toValue: 'nil'.
 	showClicksBox icon: (nil).
@@ -261,7 +261,7 @@ initializePanel
 	showKeysBox := UiCheckBox new.
 	showKeysBox changeTableLayout.
 	showKeysBox extent: (91@20).
-	showKeysBox position: (11@128).
+	showKeysBox position: (11@133).
 	showKeysBox hResizing: (#shrinkWrap).
 	showKeysBox vResizing: (#shrinkWrap).
 	showKeysBox minWidth: (2).
@@ -291,33 +291,34 @@ initializePanel
 	showKeysBox autoExclusive: (false).
 	showKeysBox setProperty: #objectName toValue: 'showKeysBox'.
 	unnamedMorph2 addChild: showKeysBox.
-	unnamedMorph3 := UiLabel new.
-	unnamedMorph3 changeTableLayout.
-	unnamedMorph3 extent: (69@18).
-	unnamedMorph3 position: (11@158).
-	unnamedMorph3 hResizing: (#shrinkWrap).
-	unnamedMorph3 vResizing: (#shrinkWrap).
-	unnamedMorph3 minWidth: (2).
-	unnamedMorph3 minHeight: (2).
-	unnamedMorph3 cellInset: (0).
-	unnamedMorph3 cellPositioning: (#center).
-	unnamedMorph3 cellSpacing: (#none).
-	unnamedMorph3 layoutInset: (0).
-	unnamedMorph3 listCentering: (#topLeft).
-	unnamedMorph3 listDirection: (#leftToRight).
-	unnamedMorph3 listSpacing: (#none).
-	unnamedMorph3 maxCellSize: (1073741823).
-	unnamedMorph3 minCellSize: (0).
-	unnamedMorph3 wrapCentering: (#topLeft).
-	unnamedMorph3 wrapDirection: (#none).
-	unnamedMorph3 frameFractions: (0@0 corner: 1@1).
-	unnamedMorph3 frameOffsets: (0@0 corner: 0@0).
-	unnamedMorph3 balloonText: ('').
-	unnamedMorph3 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
-	unnamedMorph3 text: ('Screencast').
-	unnamedMorph3 setProperty: #formByDesigner toValue: 'nil'.
-	unnamedMorph3 form: (nil).
-	unnamedMorph2 addChild: unnamedMorph3.
+	screencastLabel := UiLabel new.
+	screencastLabel changeTableLayout.
+	screencastLabel extent: (69@18).
+	screencastLabel position: (11@163).
+	screencastLabel hResizing: (#shrinkWrap).
+	screencastLabel vResizing: (#shrinkWrap).
+	screencastLabel minWidth: (2).
+	screencastLabel minHeight: (2).
+	screencastLabel cellInset: (0).
+	screencastLabel cellPositioning: (#center).
+	screencastLabel cellSpacing: (#none).
+	screencastLabel layoutInset: (0).
+	screencastLabel listCentering: (#topLeft).
+	screencastLabel listDirection: (#leftToRight).
+	screencastLabel listSpacing: (#none).
+	screencastLabel maxCellSize: (1073741823).
+	screencastLabel minCellSize: (0).
+	screencastLabel wrapCentering: (#topLeft).
+	screencastLabel wrapDirection: (#none).
+	screencastLabel frameFractions: (0@0 corner: 1@1).
+	screencastLabel frameOffsets: (0@0 corner: 0@0).
+	screencastLabel balloonText: ('').
+	screencastLabel balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
+	screencastLabel text: ('Screencast').
+	screencastLabel setProperty: #formByDesigner toValue: 'nil'.
+	screencastLabel form: (nil).
+	screencastLabel setProperty: #objectName toValue: 'screencastLabel'.
+	unnamedMorph2 addChild: screencastLabel.
 	panel addChild: unnamedMorph2.
 	fontPreview := DMFontPreview new.
 	fontPreview extent: (166@70).
@@ -340,7 +341,7 @@ initializePanel
 	fontPreview frameFractions: (0@0 corner: 1@1).
 	fontPreview frameOffsets: (0@0 corner: 0@0).
 	fontPreview balloonText: (nil).
-	fontPreview balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.741)).
+	fontPreview balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.733)).
 	fontPreview setProperty: #objectName toValue: 'fontPreview'.
 	panel addChild: fontPreview.
 	closeButton := UiToolButton new.
@@ -365,7 +366,7 @@ initializePanel
 	closeButton frameFractions: (0@0 corner: 1@1).
 	closeButton frameOffsets: (0@0 corner: 0@0).
 	closeButton balloonText: (nil).
-	closeButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.741)).
+	closeButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.733)).
 	closeButton enabled: (true).
 	closeButton setProperty: #iconByDesigner toValue: 'UiDiagonaIcons icon0301Normal'.
 	closeButton icon: (UiDiagonaIcons icon0301Normal).

@@ -12,9 +12,13 @@ initialize
 
 	self currentFactor: 0.
 
-	self connect: self ui startRecordButton signal: #clicked: toSelector: #startRecord.
+	self connect: self ui startRecordButton signal: #clicked: toSelector: #toggleRecordButton.
+	self connect: self ui captureAreaButton signal: #clicked: toSelector: #toggleCaptureButton.
+	self connect: self ui captureMorphButton signal: #clicked: toSelector: #toggleChooseButton.
 	self updateGui.
-	self roundUpStrays.
+
+
+	self recorder: DMScreenCastRecorder new
 "
 	self ui startRecordButton enabled: false.
 	self ui stopRecordButton enabled: false.

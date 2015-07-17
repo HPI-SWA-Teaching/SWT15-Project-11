@@ -1,5 +1,5 @@
 as yet unclassified
-updateGui
+updateGui 
 	self demoMode inDemoMode ifTrue: [ self ui showKeysBox enabled: true ]
 	ifFalse: [ self ui showKeysBox enabled: false. ].
 	self demoMode showKeysState ifTrue: [ self ui showKeysBox checked: true ]

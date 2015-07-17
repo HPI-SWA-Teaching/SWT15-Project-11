@@ -10,7 +10,8 @@
 		"recStep",
 		"fontPreview",
 		"currentFactor",
-		"demoMode" ],
+		"demoMode",
+		"recorder" ],
 	"name" : "DMGui3",
 	"pools" : [
 		 ],
