@@ -1,3 +1,3 @@
 as yet unclassified
-guiMorph
-	^ guiMorph
+close
+	self delete.

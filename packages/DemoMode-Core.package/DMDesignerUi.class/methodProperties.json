@@ -2,10 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"captureAreaButton" : "mj 7/13/2015 19:30",
-		"captureMorphButton" : "mj 7/13/2015 19:30",
-		"initializePanel" : "mj 7/13/2015 19:30",
-		"showKeysBox" : "mj 7/13/2015 19:30",
-		"slider" : "mj 7/13/2015 19:30",
-		"startRecordButton" : "mj 7/13/2015 19:30",
-		"stopRecordButton" : "mj 7/13/2015 12:02" } }
+		"captureAreaButton" : "mj 7/17/2015 22:26",
+		"captureMorphButton" : "mj 7/17/2015 22:26",
+		"closeButton" : "mj 7/17/2015 22:26",
+		"fontPreview" : "mj 7/17/2015 22:26",
+		"initializePanel" : "mj 7/17/2015 22:26",
+		"showClicksBox" : "mj 7/17/2015 22:26",
+		"showKeysBox" : "mj 7/17/2015 22:26",
+		"slider" : "mj 7/17/2015 22:26",
+		"startRecordButton" : "mj 7/17/2015 22:26" } }

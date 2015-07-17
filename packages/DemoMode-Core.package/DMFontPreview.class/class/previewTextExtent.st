@@ -1,3 +1,3 @@
 as yet unclassified
 previewTextExtent
-	^90@60.
+	^140@45.

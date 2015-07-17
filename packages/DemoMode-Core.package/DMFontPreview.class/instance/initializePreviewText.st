@@ -2,9 +2,9 @@ as yet unclassified
 initializePreviewText
 
 	self fontPreview: PluggableTextMorphPlus new.
-	self fontPreview setText: 'Aa';
+	self fontPreview setText: 'preview';
 		 position: self class previewTextPosition;
-		 borderColor: Color green;
+		 borderColor: Color black;
 		 color: Color transparent;
 		 extent: self class previewTextExtent;
 		 lock.

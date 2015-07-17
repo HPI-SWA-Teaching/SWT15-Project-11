@@ -6,9 +6,13 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"guiMorph" ],
-	"name" : "DMGui2",
+		"ui",
+		"recStep",
+		"fontPreview",
+		"currentFactor",
+		"demoMode" ],
+	"name" : "DMGui3",
 	"pools" : [
 		 ],
-	"super" : "SystemWindow",
+	"super" : "Morph",
 	"type" : "normal" }

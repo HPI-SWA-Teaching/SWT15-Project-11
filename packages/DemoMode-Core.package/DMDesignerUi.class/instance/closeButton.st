@@ -1,5 +1,5 @@
 accessing
-stopRecordButton
+closeButton
 	"No description given."
 	
-	^ stopRecordButton
+	^ closeButton
