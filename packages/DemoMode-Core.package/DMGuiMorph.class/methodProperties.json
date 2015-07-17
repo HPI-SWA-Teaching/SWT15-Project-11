@@ -1,0 +1,22 @@
+{
+	"class" : {
+		"open" : "mj 7/14/2015 20:56" },
+	"instance" : {
+		"applyCurrentFactor" : "mj 7/13/2015 15:28",
+		"currentFactor" : "mj 7/13/2015 15:16",
+		"currentFactor:" : "mj 7/13/2015 15:16",
+		"demoMode" : "mj 7/13/2015 15:15",
+		"fontPreview" : "mj 7/13/2015 12:30",
+		"fontPreview:" : "mj 7/13/2015 12:31",
+		"initialize" : "mj 7/13/2015 18:34",
+		"leaveDemoMode" : "mj 7/13/2015 15:27",
+		"recStep" : "mj 7/13/2015 12:05",
+		"recStep:" : "mj 7/13/2015 12:04",
+		"setDemoModeState:" : "mj 7/13/2015 15:27",
+		"startRecord" : "mj 7/13/2015 19:31",
+		"step" : "mj 7/13/2015 19:02",
+		"stepTime" : "mj 7/13/2015 12:58",
+		"stopRecord" : "mj 7/13/2015 19:31",
+		"ui" : "mj 7/13/2015 12:08",
+		"updateFontPreview" : "mj 7/13/2015 12:43",
+		"updateGui" : "mj 7/13/2015 19:02" } }
