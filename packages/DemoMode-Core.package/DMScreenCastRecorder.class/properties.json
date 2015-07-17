@@ -8,13 +8,11 @@
 	"instvars" : [
 		"frequency",
 		"screenshots",
+		"timer",
 		"state",
 		"captureMorph",
 		"hasCaptureMorph",
-		"chooseMorph",
-		"oldTimeStep",
-		"stepLengthAcc",
-		"stepCount" ],
+		"chooseMorph" ],
 	"name" : "DMScreenCastRecorder",
 	"pools" : [
 		 ],

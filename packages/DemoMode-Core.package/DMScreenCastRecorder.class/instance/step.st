@@ -3,5 +3,5 @@ step
 
 	self state = self class stateIdle ifTrue: [ ^ self ].
 
-	self calculateTimeSteps.
+	self timer: self timer + self stepTime.
 	self captureScreen
