@@ -24,12 +24,14 @@
 		"setChooseMorph:" : "mj 7/17/2015 23:20",
 		"setDemoModeState:" : "mj 7/13/2015 15:27",
 		"startRecord" : "mj 7/13/2015 19:31",
-		"step" : "mj 7/13/2015 19:02",
+		"step" : "mj 7/26/2015 14:02",
 		"stepTime" : "mj 7/13/2015 12:58",
 		"stopRecord" : "mj 7/13/2015 19:31",
 		"toggleCaptureButton" : "mj 7/17/2015 23:27",
 		"toggleChooseButton" : "mj 7/17/2015 23:07",
 		"toggleRecordButton" : "mj 7/17/2015 23:04",
 		"ui" : "mj 7/13/2015 12:08",
+		"updateChecked" : "mj 7/26/2015 13:58",
+		"updateEnabled" : "mj 7/26/2015 13:58",
 		"updateFontPreview" : "mj 7/17/2015 21:46",
-		"updateGui" : "mj 7/17/2015 23:18" } }
+		"updateGui" : "mj 7/26/2015 13:58" } }

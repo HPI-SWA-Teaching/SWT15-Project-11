@@ -13,6 +13,12 @@ step
 		ifFalse: [
 			self demoMode showKeysState: self ui showKeysBox checked.
 			self demoMode updateGuis.
+		].
+
+	self demoMode showClicksState = self ui showClicksBox checked
+		ifFalse: [
+			self demoMode showClicksState: self ui showClicksBox checked.
+			self demoMode updateGuis.
 		]
 	
 	"self recStep = 0 ifTrue: [ self recStep: 1.
