@@ -25,12 +25,36 @@ initializePanel
 	panel frameFractions: (0@0 corner: 1@1).
 	panel frameOffsets: (0@0 corner: 0@0).
 	panel balloonText: ('').
-	panel balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.729)).
+	panel balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
 	panel color: ((Color r: 0.979 g: 0.979 b: 0.972)).
 	panel borderWidth: (0).
 	panel borderStyle2: (#simple).
 	panel borderColor: (Color black).
 	panel setProperty: #objectName toValue: 'panel'.
+	fontPreview := DMFontPreview new.
+	fontPreview extent: (140@45).
+	fontPreview position: (15@22).
+	fontPreview hResizing: (#rigid).
+	fontPreview vResizing: (#rigid).
+	fontPreview minWidth: (2).
+	fontPreview minHeight: (2).
+	fontPreview cellInset: (0).
+	fontPreview cellPositioning: (#center).
+	fontPreview cellSpacing: (#none).
+	fontPreview layoutInset: (0).
+	fontPreview listCentering: (#topLeft).
+	fontPreview listDirection: (#topToBottom).
+	fontPreview listSpacing: (#none).
+	fontPreview maxCellSize: (1073741823).
+	fontPreview minCellSize: (0).
+	fontPreview wrapCentering: (#topLeft).
+	fontPreview wrapDirection: (#none).
+	fontPreview frameFractions: (0@0 corner: 1@1).
+	fontPreview frameOffsets: (0@0 corner: 0@0).
+	fontPreview balloonText: (nil).
+	fontPreview balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
+	fontPreview setProperty: #objectName toValue: 'fontPreview'.
+	panel addChild: fontPreview.
 	selectedMorph := UiContainer new.
 	selectedMorph changeTableLayout.
 	selectedMorph extent: (161@26).
@@ -53,7 +77,7 @@ initializePanel
 	selectedMorph frameFractions: (0@0 corner: 1@1).
 	selectedMorph frameOffsets: (0@0 corner: 0@0).
 	selectedMorph balloonText: ('').
-	selectedMorph balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.741)).
+	selectedMorph balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.733)).
 	selectedMorph color: (Color green).
 	selectedMorph borderWidth: (0).
 	selectedMorph borderStyle2: (#simple).
@@ -81,7 +105,7 @@ initializePanel
 	closeSelectedMorphButton frameFractions: (0@0 corner: 1@1).
 	closeSelectedMorphButton frameOffsets: (0@0 corner: 0@0).
 	closeSelectedMorphButton balloonText: (nil).
-	closeSelectedMorphButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.745)).
+	closeSelectedMorphButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.737)).
 	closeSelectedMorphButton enabled: (true).
 	closeSelectedMorphButton setProperty: #iconByDesigner toValue: 'UiSilkIcons crossIcon'.
 	closeSelectedMorphButton icon: (UiSilkIcons crossIcon).
@@ -116,7 +140,7 @@ initializePanel
 	selectedMorphText frameFractions: (0@0 corner: 1@1).
 	selectedMorphText frameOffsets: (0@0 corner: 0@0).
 	selectedMorphText balloonText: (nil).
-	selectedMorphText balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.745)).
+	selectedMorphText balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.737)).
 	selectedMorphText text: ('Label').
 	selectedMorphText setProperty: #formByDesigner toValue: 'nil'.
 	selectedMorphText form: (nil).
@@ -278,7 +302,7 @@ initializePanel
 	unnamedMorph2 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph2 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph2 balloonText: (nil).
-	unnamedMorph2 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.725)).
+	unnamedMorph2 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
 	unnamedMorph2 color: (Color transparent).
 	unnamedMorph2 borderWidth: (0).
 	unnamedMorph2 borderStyle2: (#simple).
@@ -412,30 +436,6 @@ initializePanel
 	screencastLabel setProperty: #objectName toValue: 'screencastLabel'.
 	unnamedMorph2 addChild: screencastLabel.
 	panel addChild: unnamedMorph2.
-	fontPreview := DMFontPreview new.
-	fontPreview extent: (166@70).
-	fontPreview position: (-5@12).
-	fontPreview hResizing: (#rigid).
-	fontPreview vResizing: (#rigid).
-	fontPreview minWidth: (2).
-	fontPreview minHeight: (2).
-	fontPreview cellInset: (0).
-	fontPreview cellPositioning: (#center).
-	fontPreview cellSpacing: (#none).
-	fontPreview layoutInset: (0).
-	fontPreview listCentering: (#topLeft).
-	fontPreview listDirection: (#topToBottom).
-	fontPreview listSpacing: (#none).
-	fontPreview maxCellSize: (1073741823).
-	fontPreview minCellSize: (0).
-	fontPreview wrapCentering: (#topLeft).
-	fontPreview wrapDirection: (#none).
-	fontPreview frameFractions: (0@0 corner: 1@1).
-	fontPreview frameOffsets: (0@0 corner: 0@0).
-	fontPreview balloonText: (nil).
-	fontPreview balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
-	fontPreview setProperty: #objectName toValue: 'fontPreview'.
-	panel addChild: fontPreview.
 	closeButton := UiToolButton new.
 	closeButton changeTableLayout.
 	closeButton extent: (22@18).
@@ -460,8 +460,8 @@ initializePanel
 	closeButton balloonText: (nil).
 	closeButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
 	closeButton enabled: (true).
-	closeButton setProperty: #iconByDesigner toValue: 'UiDiagonaIcons icon0301Normal'.
-	closeButton icon: (UiDiagonaIcons icon0301Normal).
+	closeButton setProperty: #iconByDesigner toValue: 'UiSilkIcons crossIcon'.
+	closeButton icon: (UiSilkIcons crossIcon).
 	closeButton text: ('ToolButton').
 	closeButton color: ((Color r: 1 g: 0.871 b: 0.0)).
 	closeButton checkable: (false).

@@ -6,6 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
+		"fontPreview",
 		"selectedMorph",
 		"closeSelectedMorphButton",
 		"selectedMorphText",
@@ -16,7 +17,6 @@
 		"showClicksBox",
 		"showKeysBox",
 		"screencastLabel",
-		"fontPreview",
 		"closeButton" ],
 	"name" : "DMDesignerUi",
 	"pools" : [
