@@ -1,4 +1,4 @@
-as yet unclassified
+screencast
 enableCaptureOrChooseButtons: aBool
 
 	self ui captureAreaButton enabled: aBool.

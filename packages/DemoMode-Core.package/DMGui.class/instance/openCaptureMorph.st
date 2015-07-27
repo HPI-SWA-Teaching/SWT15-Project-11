@@ -1,4 +1,4 @@
-as yet unclassified
+screencast
 openCaptureMorph
 
 	self recorder openCaptureMorph

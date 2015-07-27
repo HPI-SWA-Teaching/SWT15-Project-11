@@ -1,4 +1,4 @@
-as yet unclassified
+updating
 updateSlider
 	self ui slider isSliderDown = true ifFalse: [
 		self currentFactor = (self ui slider currentValue*0.01) ifFalse: [

@@ -1,3 +1,3 @@
-as yet unclassified
+updating
 stepTime
 	^self class stepTimeNumber.

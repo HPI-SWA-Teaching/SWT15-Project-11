@@ -1,4 +1,4 @@
-as yet unclassified
+screencast
 setChooseMorph: aMorph
 
 	self showSelectedMorph: true.

@@ -1,4 +1,4 @@
-as yet unclassified
+updating
 updateEnabled
 	self demoMode inDemoMode ifTrue: [ 
 		self ui showKeysBox enabled: true.

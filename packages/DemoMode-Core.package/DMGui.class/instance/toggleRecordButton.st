@@ -1,4 +1,4 @@
-as yet unclassified
+button
 toggleRecordButton
 
 	self recorder state = DMScreenCastRecorder stateIdle

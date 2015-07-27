@@ -1,4 +1,4 @@
-as yet unclassified
+button
 connectButtons
 	self connect: self ui closeButton signal: #clicked: toSelector: #close.
 	self connect: self ui closeSelectedMorphButton signal: #clicked: toSelector: #closeSelectedMorph.

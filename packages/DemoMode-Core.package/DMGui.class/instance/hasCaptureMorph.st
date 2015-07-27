@@ -1,4 +1,4 @@
-as yet unclassified
+screencast
 hasCaptureMorph
 
 	^ self recorder hasCaptureMorph

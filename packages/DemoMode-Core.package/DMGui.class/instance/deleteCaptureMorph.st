@@ -1,4 +1,4 @@
-as yet unclassified
+screencast
 deleteCaptureMorph
 
 	self recorder deleteCaptureMorph

@@ -1,4 +1,4 @@
-as yet unclassified
+screencast
 showSelectedMorph: aBool
 	aBool ifTrue: [
 		self ui selectedMorph show.

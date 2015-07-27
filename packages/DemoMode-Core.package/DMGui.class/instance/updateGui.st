@@ -1,4 +1,4 @@
-as yet unclassified
+updating
 updateGui
 	"This method is used to sync multiple GUIs"
 

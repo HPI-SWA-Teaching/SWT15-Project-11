@@ -1,3 +1,3 @@
-as yet unclassified
+screencast
 recorder: anObject
 	recorder := anObject.

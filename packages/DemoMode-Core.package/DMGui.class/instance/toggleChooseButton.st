@@ -1,4 +1,4 @@
-as yet unclassified
+button
 toggleChooseButton
 	
 	self openScreenCastCrosshair

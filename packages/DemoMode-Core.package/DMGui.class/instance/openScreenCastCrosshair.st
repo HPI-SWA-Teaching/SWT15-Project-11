@@ -1,4 +1,4 @@
-as yet unclassified
+screencast
 openScreenCastCrosshair
 
 	(DMScreenCastCrosshair new) recorder: self; openInWorld

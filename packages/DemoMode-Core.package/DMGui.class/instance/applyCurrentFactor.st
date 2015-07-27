@@ -1,4 +1,4 @@
-as yet unclassified
+access-demomode
 applyCurrentFactor
 	self currentFactor = 0 ifTrue: [
 		self leaveDemoMode.

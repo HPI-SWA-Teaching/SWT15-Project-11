@@ -1,4 +1,4 @@
-as yet unclassified
+screencast
 startRecord
 	self recorder startRecord.
 	self enableCaptureOrChooseButtons: false.

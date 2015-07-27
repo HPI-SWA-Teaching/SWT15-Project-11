@@ -1,4 +1,4 @@
-as yet unclassified
+access-demomode
 leaveDemoMode
 
 	self demoMode leaveDemoMode.

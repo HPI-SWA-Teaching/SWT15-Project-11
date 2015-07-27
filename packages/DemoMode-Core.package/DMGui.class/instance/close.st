@@ -1,3 +1,3 @@
-as yet unclassified
+button
 close
 	self delete.

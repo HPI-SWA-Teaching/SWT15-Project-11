@@ -1,4 +1,4 @@
-as yet unclassified
+updating
 updateChecked
 	self demoMode showKeysState ifTrue: [ self ui showKeysBox checked: true ]
 	ifFalse: [ self ui showKeysBox checked: false ].

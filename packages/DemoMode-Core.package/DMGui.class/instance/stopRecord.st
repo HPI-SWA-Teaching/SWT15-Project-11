@@ -1,4 +1,4 @@
-as yet unclassified
+screencast
 stopRecord
 	self ui startRecordButton icon: self class startRecordIcon.
 	self revertCaptureMorph; revertChooseMorph.
