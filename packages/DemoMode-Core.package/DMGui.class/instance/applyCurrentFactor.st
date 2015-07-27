@@ -1,5 +1,6 @@
-access-demomode
+as yet unclassified
 applyCurrentFactor
-	"slider value between 0 and 1. 0 is max."
-	self setDemoModeState: (1 - self fontPreview slider value).
-	self updateGui.
+	self currentFactor=0 ifTrue: [ self leaveDemoMode. ] 
+	ifFalse: [
+		self setDemoModeState: (self ui slider currentValue*0.01).
+		self updateGui.]

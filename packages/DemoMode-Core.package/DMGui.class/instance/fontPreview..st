@@ -1,3 +1,3 @@
-accessing
+as yet unclassified
 fontPreview: anObject
-	fontPreview := anObject
+	fontPreview := anObject.

@@ -1,4 +1,0 @@
-constants
-stringHidingKeys
-
-	^ 'Hiding Keys'

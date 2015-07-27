@@ -1,4 +1,4 @@
-access-demomode
+as yet unclassified
 demoMode
 
 	^ DemoMode uniqueInstance

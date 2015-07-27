@@ -1,4 +1,0 @@
-constants
-defaultButtonPadding
-
-	^15

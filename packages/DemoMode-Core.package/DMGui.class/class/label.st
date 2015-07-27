@@ -1,4 +1,0 @@
-constants
-label
-
-	^ 'Demo Mode'
