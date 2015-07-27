@@ -1,4 +1,4 @@
 as yet unclassified
-updateGui 
+updateGui "
 	self updateEnabled.
-	self updateChecked.
+	self updateChecked."

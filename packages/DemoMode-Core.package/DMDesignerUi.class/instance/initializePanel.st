@@ -5,7 +5,7 @@ initializePanel
 	| unnamedMorph1 unnamedMorph2 |
 	
 	panel := UiContainer new.
-	panel extent: (171@231).
+	panel extent: (172@248).
 	panel position: (0@0).
 	panel hResizing: (#rigid).
 	panel vResizing: (#rigid).
@@ -25,12 +25,104 @@ initializePanel
 	panel frameFractions: (0@0 corner: 1@1).
 	panel frameOffsets: (0@0 corner: 0@0).
 	panel balloonText: ('').
-	panel balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.741)).
+	panel balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.729)).
 	panel color: ((Color r: 0.979 g: 0.979 b: 0.972)).
 	panel borderWidth: (0).
 	panel borderStyle2: (#simple).
 	panel borderColor: (Color black).
 	panel setProperty: #objectName toValue: 'panel'.
+	selectedMorph := UiContainer new.
+	selectedMorph changeTableLayout.
+	selectedMorph extent: (161@26).
+	selectedMorph position: (7@214).
+	selectedMorph hResizing: (#rigid).
+	selectedMorph vResizing: (#rigid).
+	selectedMorph minWidth: (2).
+	selectedMorph minHeight: (2).
+	selectedMorph cellInset: (4).
+	selectedMorph cellPositioning: (#center).
+	selectedMorph cellSpacing: (#none).
+	selectedMorph layoutInset: (4).
+	selectedMorph listCentering: (#topLeft).
+	selectedMorph listDirection: (#leftToRight).
+	selectedMorph listSpacing: (#none).
+	selectedMorph maxCellSize: (1073741823).
+	selectedMorph minCellSize: (0).
+	selectedMorph wrapCentering: (#topLeft).
+	selectedMorph wrapDirection: (#none).
+	selectedMorph frameFractions: (0@0 corner: 1@1).
+	selectedMorph frameOffsets: (0@0 corner: 0@0).
+	selectedMorph balloonText: ('').
+	selectedMorph balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.741)).
+	selectedMorph color: (Color green).
+	selectedMorph borderWidth: (0).
+	selectedMorph borderStyle2: (#simple).
+	selectedMorph borderColor: (Color black).
+	selectedMorph setProperty: #objectName toValue: 'selectedMorph'.
+	closeSelectedMorphButton := UiToolButton new.
+	closeSelectedMorphButton changeTableLayout.
+	closeSelectedMorphButton extent: (22@18).
+	closeSelectedMorphButton position: (11@218).
+	closeSelectedMorphButton hResizing: (#shrinkWrap).
+	closeSelectedMorphButton vResizing: (#shrinkWrap).
+	closeSelectedMorphButton minWidth: (2).
+	closeSelectedMorphButton minHeight: (2).
+	closeSelectedMorphButton cellInset: (4).
+	closeSelectedMorphButton cellPositioning: (#center).
+	closeSelectedMorphButton cellSpacing: (#none).
+	closeSelectedMorphButton layoutInset: (2@0 corner: 2@0).
+	closeSelectedMorphButton listCentering: (#topLeft).
+	closeSelectedMorphButton listDirection: (#leftToRight).
+	closeSelectedMorphButton listSpacing: (#none).
+	closeSelectedMorphButton maxCellSize: (1073741823).
+	closeSelectedMorphButton minCellSize: (0).
+	closeSelectedMorphButton wrapCentering: (#topLeft).
+	closeSelectedMorphButton wrapDirection: (#none).
+	closeSelectedMorphButton frameFractions: (0@0 corner: 1@1).
+	closeSelectedMorphButton frameOffsets: (0@0 corner: 0@0).
+	closeSelectedMorphButton balloonText: (nil).
+	closeSelectedMorphButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.745)).
+	closeSelectedMorphButton enabled: (true).
+	closeSelectedMorphButton setProperty: #iconByDesigner toValue: 'UiSilkIcons crossIcon'.
+	closeSelectedMorphButton icon: (UiSilkIcons crossIcon).
+	closeSelectedMorphButton text: ('ToolButton').
+	closeSelectedMorphButton color: ((Color r: 1 g: 0.871 b: 0.0)).
+	closeSelectedMorphButton checkable: (false).
+	closeSelectedMorphButton checked: (false).
+	closeSelectedMorphButton autoExclusive: (false).
+	closeSelectedMorphButton autoRaise: (true).
+	closeSelectedMorphButton buttonStyle: (#iconOnly).
+	closeSelectedMorphButton setProperty: #objectName toValue: 'closeSelectedMorphButton'.
+	selectedMorph addChild: closeSelectedMorphButton.
+	selectedMorphText := UiLabel new.
+	selectedMorphText changeTableLayout.
+	selectedMorphText extent: (33@18).
+	selectedMorphText position: (39@219).
+	selectedMorphText hResizing: (#shrinkWrap).
+	selectedMorphText vResizing: (#shrinkWrap).
+	selectedMorphText minWidth: (2).
+	selectedMorphText minHeight: (2).
+	selectedMorphText cellInset: (0).
+	selectedMorphText cellPositioning: (#center).
+	selectedMorphText cellSpacing: (#none).
+	selectedMorphText layoutInset: (0).
+	selectedMorphText listCentering: (#topLeft).
+	selectedMorphText listDirection: (#leftToRight).
+	selectedMorphText listSpacing: (#none).
+	selectedMorphText maxCellSize: (1073741823).
+	selectedMorphText minCellSize: (0).
+	selectedMorphText wrapCentering: (#topLeft).
+	selectedMorphText wrapDirection: (#none).
+	selectedMorphText frameFractions: (0@0 corner: 1@1).
+	selectedMorphText frameOffsets: (0@0 corner: 0@0).
+	selectedMorphText balloonText: (nil).
+	selectedMorphText balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.745)).
+	selectedMorphText text: ('Label').
+	selectedMorphText setProperty: #formByDesigner toValue: 'nil'.
+	selectedMorphText form: (nil).
+	selectedMorphText setProperty: #objectName toValue: 'selectedMorphText'.
+	selectedMorph addChild: selectedMorphText.
+	panel addChild: selectedMorph.
 	unnamedMorph1 := UiContainer new.
 	unnamedMorph1 changeTableLayout.
 	unnamedMorph1 extent: (87@31).
@@ -53,7 +145,7 @@ initializePanel
 	unnamedMorph1 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph1 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph1 balloonText: (nil).
-	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.733)).
+	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
 	unnamedMorph1 color: (Color transparent).
 	unnamedMorph1 borderWidth: (0).
 	unnamedMorph1 borderStyle2: (#simple).
@@ -186,7 +278,7 @@ initializePanel
 	unnamedMorph2 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph2 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph2 balloonText: (nil).
-	unnamedMorph2 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.737)).
+	unnamedMorph2 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.725)).
 	unnamedMorph2 color: (Color transparent).
 	unnamedMorph2 borderWidth: (0).
 	unnamedMorph2 borderStyle2: (#simple).
@@ -247,7 +339,7 @@ initializePanel
 	showClicksBox frameFractions: (0@0 corner: 1@1).
 	showClicksBox frameOffsets: (0@0 corner: 0@0).
 	showClicksBox balloonText: (nil).
-	showClicksBox balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.733)).
+	showClicksBox balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
 	showClicksBox enabled: (true).
 	showClicksBox setProperty: #iconByDesigner toValue: 'nil'.
 	showClicksBox icon: (nil).
@@ -341,7 +433,7 @@ initializePanel
 	fontPreview frameFractions: (0@0 corner: 1@1).
 	fontPreview frameOffsets: (0@0 corner: 0@0).
 	fontPreview balloonText: (nil).
-	fontPreview balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.733)).
+	fontPreview balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
 	fontPreview setProperty: #objectName toValue: 'fontPreview'.
 	panel addChild: fontPreview.
 	closeButton := UiToolButton new.
@@ -366,7 +458,7 @@ initializePanel
 	closeButton frameFractions: (0@0 corner: 1@1).
 	closeButton frameOffsets: (0@0 corner: 0@0).
 	closeButton balloonText: (nil).
-	closeButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.733)).
+	closeButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
 	closeButton enabled: (true).
 	closeButton setProperty: #iconByDesigner toValue: 'UiDiagonaIcons icon0301Normal'.
 	closeButton icon: (UiDiagonaIcons icon0301Normal).

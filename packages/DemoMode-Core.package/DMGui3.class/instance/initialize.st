@@ -6,8 +6,10 @@ initialize
 	self recStep: 0.
 	self ui showKeysBox enabled: false.
 
+	self ui selectedMorph hide.
 
 	self connect: self ui closeButton signal: #clicked: toSelector: #close.
+	self connect: self ui closeSelectedMorphButton signal: #clicked: toSelector: #closeSelectedMorph.
 
 
 	self currentFactor: 0.

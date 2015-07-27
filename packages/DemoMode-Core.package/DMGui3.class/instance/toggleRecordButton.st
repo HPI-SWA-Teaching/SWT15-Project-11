@@ -8,6 +8,6 @@ toggleRecordButton
 			]
 		ifFalse: [
 			self ui startRecordButton icon: (UiDiagonaIcons icon0401Normal).
-			"self revertCaptureMorph; revertChooseMorph."
+			self revertCaptureMorph; revertChooseMorph.
 			self recorder stopRecord; openInVideoPlayer.
 			self enableCaptureOrChooseButtons: true]

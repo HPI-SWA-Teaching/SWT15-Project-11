@@ -6,6 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
+		"selectedMorph",
+		"closeSelectedMorphButton",
+		"selectedMorphText",
 		"captureMorphButton",
 		"captureAreaButton",
 		"startRecordButton",

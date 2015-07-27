@@ -2,13 +2,16 @@
 	"class" : {
 		 },
 	"instance" : {
-		"captureAreaButton" : "mj 7/17/2015 23:12",
-		"captureMorphButton" : "mj 7/17/2015 23:12",
-		"closeButton" : "mj 7/17/2015 23:12",
-		"fontPreview" : "mj 7/17/2015 23:12",
-		"initializePanel" : "mj 7/17/2015 23:12",
-		"screencastLabel" : "mj 7/17/2015 23:12",
-		"showClicksBox" : "mj 7/17/2015 23:12",
-		"showKeysBox" : "mj 7/17/2015 23:12",
-		"slider" : "mj 7/17/2015 23:12",
-		"startRecordButton" : "mj 7/17/2015 23:12" } }
+		"captureAreaButton" : "mj 7/27/2015 02:25",
+		"captureMorphButton" : "mj 7/27/2015 02:25",
+		"closeButton" : "mj 7/27/2015 02:25",
+		"closeSelectedMorphButton" : "mj 7/27/2015 02:25",
+		"fontPreview" : "mj 7/27/2015 02:25",
+		"initializePanel" : "mj 7/27/2015 02:25",
+		"screencastLabel" : "mj 7/27/2015 02:25",
+		"selectedMorph" : "mj 7/27/2015 02:25",
+		"selectedMorphText" : "mj 7/27/2015 02:25",
+		"showClicksBox" : "mj 7/27/2015 02:25",
+		"showKeysBox" : "mj 7/27/2015 02:25",
+		"slider" : "mj 7/27/2015 02:25",
+		"startRecordButton" : "mj 7/27/2015 02:25" } }
