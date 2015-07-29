@@ -1,0 +1,3 @@
+constants
+maxCodeFontSize
+	^27

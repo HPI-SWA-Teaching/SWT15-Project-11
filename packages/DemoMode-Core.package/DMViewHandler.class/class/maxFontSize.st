@@ -1,0 +1,3 @@
+constants
+maxFontSize
+	^17

@@ -7,7 +7,6 @@
 		"stepTimeNumber" : "mj 7/27/2015 12:03",
 		"stopRecordIcon" : "mj 7/27/2015 12:01" },
 	"instance" : {
-		"adaptStates" : "mj 7/27/2015 12:12",
 		"applyCurrentFactor" : "mj 6/29/2015 00:45",
 		"close" : "mj 7/17/2015 21:58",
 		"closeSelectedMorph" : "mj 7/27/2015 11:36",
@@ -42,6 +41,6 @@
 		"ui" : "mj 7/13/2015 12:08",
 		"updateChecked" : "mj 7/27/2015 11:27",
 		"updateEnabled" : "mj 7/27/2015 02:32",
-		"updateFontPreview" : "mj 7/17/2015 21:46",
+		"updateFontPreview" : "mj 7/29/2015 21:50",
 		"updateGui" : "mj 7/27/2015 12:07",
 		"updateSlider" : "mj 7/27/2015 12:10" } }
