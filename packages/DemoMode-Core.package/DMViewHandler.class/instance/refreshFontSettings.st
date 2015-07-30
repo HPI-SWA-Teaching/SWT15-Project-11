@@ -1,7 +1,6 @@
 font
 refreshFontSettings
-	"Try to update all the current font settings to make things consistent."
-	"buttons und die Leiste oben werden wohl automatisch refresht...."
+	"Update the current font settings that aren't displayed automatically"
 
 	SystemWindow allSubInstancesDo: [ :s | 
 		s setLabelFont: (Preferences windowTitleFont).

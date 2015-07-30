@@ -7,7 +7,6 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"ui",
-		"recStep",
 		"fontPreview",
 		"currentFactor",
 		"demoMode",

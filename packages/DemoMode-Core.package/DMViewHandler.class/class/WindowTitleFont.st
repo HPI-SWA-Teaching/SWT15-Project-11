@@ -1,4 +1,4 @@
-constants
+fonts
 WindowTitleFont
 
 	^ #WindowTitleFont

@@ -2,5 +2,5 @@ initialize-release
 initialize 
 
 	super initialize.
-"
-	self initializeFontDictionary."
+
+	self initializeFontDictionary.

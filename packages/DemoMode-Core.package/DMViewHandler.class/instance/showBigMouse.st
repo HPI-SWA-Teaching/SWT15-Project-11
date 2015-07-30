@@ -4,4 +4,4 @@ showBigMouse
 	self mouseForm: Cursor currentCursor asCursorForm;
 		updateMouseToForm.
 
-	self scaleMouseFormBy: 2.
+	self scaleMouseFormBy: self class defaultMouseScalingFactor.

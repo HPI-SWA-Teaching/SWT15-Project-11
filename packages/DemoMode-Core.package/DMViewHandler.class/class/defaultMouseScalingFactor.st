@@ -1,0 +1,3 @@
+constants
+defaultMouseScalingFactor
+	^2
