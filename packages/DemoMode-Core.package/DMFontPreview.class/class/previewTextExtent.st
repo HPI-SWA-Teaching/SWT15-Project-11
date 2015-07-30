@@ -1,3 +1,3 @@
-as yet unclassified
+constants
 previewTextExtent
 	^140@45.

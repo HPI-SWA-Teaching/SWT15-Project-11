@@ -4,11 +4,9 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "mj 7/30/2015 22:11",
 	"instvars" : [
-		"slider",
-		"fontPreview",
-		"font" ],
+		"fontPreview" ],
 	"name" : "DMFontPreview",
 	"pools" : [
 		 ],

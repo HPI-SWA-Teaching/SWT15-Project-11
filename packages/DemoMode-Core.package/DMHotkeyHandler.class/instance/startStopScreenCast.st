@@ -1,6 +1,6 @@
-as yet unclassified
+access-screencast
 startStopScreenCast
-	self demoMode screenCast state = DMScreenCast stateIdle
+	self demoMode screenCast state = DMScreenCastRecorder stateIdle
 		ifTrue:
 			[self startRecord]
 		ifFalse:

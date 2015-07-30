@@ -1,4 +1,4 @@
-as yet unclassified
+listener
 registerListener 
 
 	World activeHand addKeyboardListener: self.

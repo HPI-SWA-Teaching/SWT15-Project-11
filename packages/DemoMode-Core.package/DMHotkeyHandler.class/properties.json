@@ -4,9 +4,9 @@
 		"uniqueInstance" ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "mj 7/30/2015 22:19",
 	"instvars" : [
-		"sMorph" ],
+		 ],
 	"name" : "DMHotkeyHandler",
 	"pools" : [
 		 ],

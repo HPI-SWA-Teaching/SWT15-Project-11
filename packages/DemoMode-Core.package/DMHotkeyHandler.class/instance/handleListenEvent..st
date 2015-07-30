@@ -1,5 +1,5 @@
-as yet unclassified
+listener
 handleListenEvent: evt 
 
-	evt keyString = '<Ctrl-Shift-a>'
+	evt keyString = self class keyCombination
 		ifTrue: [self startStopScreenCast]
