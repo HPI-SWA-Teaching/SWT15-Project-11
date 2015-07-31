@@ -2,8 +2,8 @@
 	"class" : {
 		"WindowsInputTable" : "bf 5/28/2015 18:32" },
 	"instance" : {
-		"createMouseHighlight:" : "jf 7/31/2015 22:26",
-		"demoMode" : "mj 6/29/2015 00:54",
+		"createMouseHighlight:" : "bf 7/31/2015 23:16",
+		"demoMode" : "bf 7/31/2015 23:16",
 		"endDetectInput" : "goldfisch 6/8/2015 17:16",
 		"getCharacterFromInputTable:" : "bf 5/28/2015 16:31",
 		"getCharacterFromKeyDownEvent:" : "bf 5/28/2015 16:34",

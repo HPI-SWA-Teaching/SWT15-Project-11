@@ -1,4 +1,4 @@
-as yet unclassified
+constants
 backgroundColor
 	^ Color
 		r: 250

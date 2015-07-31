@@ -1,4 +1,4 @@
-as yet unclassified
+color
 updateColor: evt
 
 	evt blueButtonPressed ifTrue: [self lastHighlight color: (Color blue alpha: 0.5)].

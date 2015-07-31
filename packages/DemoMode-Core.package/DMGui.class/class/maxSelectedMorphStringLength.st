@@ -1,3 +1,3 @@
 constants
 maxSelectedMorphStringLength
-	^17.
+	^17

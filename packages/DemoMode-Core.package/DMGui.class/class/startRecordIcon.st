@@ -1,3 +1,3 @@
 constants
 startRecordIcon
-	^(UiDiagonaIcons icon0401Normal).
+	^(UiDiagonaIcons icon0401Normal)

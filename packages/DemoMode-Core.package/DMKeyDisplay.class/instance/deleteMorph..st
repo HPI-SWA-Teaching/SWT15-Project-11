@@ -1,4 +1,4 @@
-as yet unclassified
+submorph delete
 deleteMorph: aMorph
 	""
 	self displayedKeyStrokes remove: aMorph. 

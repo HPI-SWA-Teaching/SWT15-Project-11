@@ -7,4 +7,4 @@ createMouseHighlight: evt
 	evt redButtonPressed ifTrue: [red := 1].
 	evt yellowButtonPressed ifTrue: [yellow := 1].
 	highlight mixColors: blue with: red and: yellow.
-	^ highlight.
+	^ highlight

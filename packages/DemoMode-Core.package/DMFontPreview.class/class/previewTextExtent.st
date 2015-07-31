@@ -1,3 +1,3 @@
 constants
 previewTextExtent
-	^140@45.
+	^140@45

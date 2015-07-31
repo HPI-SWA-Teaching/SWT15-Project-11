@@ -1,11 +1,11 @@
 {
 	"class" : {
 		"initialize" : "mj 7/27/2015 03:03",
-		"maxSelectedMorphStringLength" : "mj 7/27/2015 11:53",
+		"maxSelectedMorphStringLength" : "bf 7/31/2015 23:16",
 		"open" : "mj 7/14/2015 20:56",
-		"startRecordIcon" : "mj 7/27/2015 12:01",
+		"startRecordIcon" : "bf 7/31/2015 23:16",
 		"stepTimeNumber" : "mj 7/27/2015 12:03",
-		"stopRecordIcon" : "mj 7/27/2015 12:01" },
+		"stopRecordIcon" : "bf 7/31/2015 23:16" },
 	"instance" : {
 		"applyCurrentFactor" : "mj 6/29/2015 00:45",
 		"close" : "mj 7/17/2015 21:58",
@@ -34,7 +34,7 @@
 		"startRecord" : "mj 7/27/2015 12:02",
 		"step" : "mj 7/31/2015 20:24",
 		"stepSlider" : "mj 7/31/2015 20:23",
-		"stepTime" : "mj 7/27/2015 12:03",
+		"stepTime" : "bf 7/31/2015 23:16",
 		"stopRecord" : "mj 7/27/2015 12:02",
 		"syncShowClicks" : "mj 7/31/2015 20:24",
 		"syncShowKeys" : "mj 7/31/2015 20:24",

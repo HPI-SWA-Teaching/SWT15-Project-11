@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 createKeyStrokeMorph: aKeyboardEvent xLocation: xValue
 	""
 	self position: xValue@30.

@@ -1,4 +1,4 @@
-as yet unclassified
+constants
 createKeyStrokeMorph: KeyDisplay Event: aKeyboardEvent xLocation: xValue
 	""
 	| text highlight |

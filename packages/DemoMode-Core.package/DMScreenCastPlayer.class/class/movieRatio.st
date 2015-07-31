@@ -1,4 +1,4 @@
-as yet unclassified
+constants
 movieRatio
 
 	^ 600 / 400

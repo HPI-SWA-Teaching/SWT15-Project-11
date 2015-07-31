@@ -1,3 +1,3 @@
 updating
 stepTime
-	^self class stepTimeNumber.
+	^self class stepTimeNumber
