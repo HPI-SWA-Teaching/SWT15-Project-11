@@ -3,7 +3,7 @@ initializeVideoLook
 
 	| form |
 
-	form := (Form extent: 600 @ 400 depth: 16).
+	form := self class defaultForm.
 	form fillBlack.
 	
 	self ui video scalePoint: 1@1; newForm: form.

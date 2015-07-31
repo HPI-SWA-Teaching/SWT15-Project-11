@@ -19,4 +19,5 @@ handleKeyboardEvent: evt
  evt isKeystroke  
   ifTrue: [activeKey := self getCharacterFromKeystrokeEvent: evt.
    string := activeKey.
-   self sendEventToDisplay: string]
+   self sendEventToDisplay: string].
+evt wasHandled: true

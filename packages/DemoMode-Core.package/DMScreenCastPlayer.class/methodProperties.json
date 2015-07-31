@@ -1,5 +1,6 @@
 {
 	"class" : {
+		"defaultForm" : "jf 7/31/2015 23:48",
 		"defaultFrequency" : "bf 7/10/2015 14:23",
 		"movieDimension" : "bf 7/13/2015 21:48",
 		"movieRatio" : "bf 7/13/2015 21:54",
@@ -27,7 +28,7 @@
 		"initialize" : "bf 7/14/2015 16:24",
 		"initializeLook" : "bf 7/10/2015 14:45",
 		"initializeMovieMorph" : "bf 7/10/2015 14:45",
-		"initializeVideoLook" : "bf 7/14/2015 12:03",
+		"initializeVideoLook" : "jf 7/31/2015 23:48",
 		"loadVideo:delay:" : "bf 7/16/2015 12:32",
 		"movie" : "bf 7/10/2015 14:21",
 		"movie:" : "bf 7/10/2015 14:21",

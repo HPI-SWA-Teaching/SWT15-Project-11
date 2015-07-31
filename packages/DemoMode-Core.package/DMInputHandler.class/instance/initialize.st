@@ -1,6 +1,4 @@
 initialize-release
 initialize
 
-	super initialize.
-
-	self shiftPressed: false
+	super initialize
