@@ -6,3 +6,4 @@ mixColors: blue with: red and: yellow
 	self color: (self color alphaMixed: (1 - (blue/sum)) with: Color blue).
 	self color: (self color alphaMixed: (1 - (red/sum)) with: Color red).
 	self color: (self color alphaMixed: (1 - (yellow/sum)) with: Color yellow).
+	self color: (self color alpha: 0.5).
