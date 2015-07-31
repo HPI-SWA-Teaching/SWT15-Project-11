@@ -1,11 +1,9 @@
 state
 enterDemoMode: aFactor
-
 	self inDemoMode ifTrue: [ ^ false ].
 
 	self inputHandler startDetectInput.
-	self viewHandler showBigMouse.
-	self viewHandler saveFonts.
+	self viewHandler showBigMouse; saveFonts.
 
 	self setState: aFactor.
 	self updateGuis.

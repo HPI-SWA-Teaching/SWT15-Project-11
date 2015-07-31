@@ -2,13 +2,8 @@ initialization
 initialize
 	super initialize.
 	self ui setupUi: self.
-	
-	self showSelectedMorph: false.
-	self connectButtons.
 
+	self showSelectedMorph: false.
 
 	self recorder: DMScreenCastRecorder new.
-	self currentFactor: 0.
-	self updateGui.
-
-
+	self connectButtons; currentFactor: 0; updateGui.
