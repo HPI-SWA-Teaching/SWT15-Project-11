@@ -1,5 +1,6 @@
 {
 	"class" : {
+		"blackHighlight" : "jf 7/31/2015 22:13",
 		"blueHighlight" : "mj 6/18/2015 20:59",
 		"highlightPositionCorrection" : "mj 6/18/2015 20:57",
 		"highlightSize" : "mj 6/18/2015 20:57",
@@ -8,6 +9,7 @@
 		"yellowHighlight" : "mj 6/18/2015 20:59" },
 	"instance" : {
 		"initialize" : "mj 6/18/2015 20:57",
+		"mixColors:with:and:" : "jf 7/31/2015 22:23",
 		"morphicLayerNumber" : "bf 5/28/2015 23:28",
 		"position:" : "mj 6/18/2015 20:58",
 		"running" : "bf 5/29/2015 10:27",
