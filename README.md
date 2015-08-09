@@ -1,4 +1,4 @@
-SWT15-Project-11 [![Build Status](https://travis-ci.org/HPI-SWA-Teaching/SWT15-Project-11.svg)](https://travis-ci.org/HPI-SWA-Teaching/SWT15-Project-11)
+Squeak-DemoMode [![Build Status](https://travis-ci.org/HPI-SWA-Teaching/Squeak-DemoMode.svg)](https://travis-ci.org/HPI-SWA-Teaching/Squeak-DemoMode)
 ===================
 
 Dieses Projekt umfasst den DemoMode des Squeak Images.
@@ -13,4 +13,4 @@ Dies kann durch verschiedene Maßnahmen geschehen:
 * Zeichenwerkzeug zum Highlighten von Code oder anderen Objektem im Image
 * etc.
 
-[Wiki](https://github.com/HPI-SWA-Teaching/SWT15-Project-11/wiki)
+[Wiki](https://github.com/HPI-SWA-Teaching/Squeak-DemoMode/wiki)
